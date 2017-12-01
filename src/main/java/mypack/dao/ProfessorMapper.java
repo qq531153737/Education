@@ -2,6 +2,7 @@ package mypack.dao;
 
 import mypack.Response.TeacherInfo;
 import mypack.pojo.Professor;
+import mypack.pojo.Securitypro;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 
@@ -26,5 +27,14 @@ public interface ProfessorMapper {
     @Select("UPDATE professor SET password=#{password} WHERE id=#{id}")
     void changeProfessorPassword(@Param("id")long id,@Param("password")String password);
 
+    @Select("SELECT * from securitypro WHERE proID=#{id}")
+    Securitypro securityQuestionQuery(@Param("id") long id);
+
+    @Select("update securitypro\n" +
+            "set queone=#{queone},quetwo=#{quetwo},quethree=#{quethree},ansone=#{ansone},anstwo=#{anstwo},ansthree=#{ansthree}" +
+            "where proID=#{id}")
+    void resetSecurityQuestion(@Param("id")long id,@Param("queone")String queone,@Param("quetwo")String quetwo,
+                               @Param("quethree")String quethree,@Param("ansone")String ansone,
+                               @Param("anstwo")String anstwo,@Param("ansthree")String ansthree);
 
 }

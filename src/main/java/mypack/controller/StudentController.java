@@ -5,6 +5,7 @@ import mypack.Response.StudentInfo;
 import mypack.pojo.Securitystu;
 import mypack.pojo.Student;
 import mypack.service.ChangePasswordService;
+import mypack.service.ChangeSecurityQuestionService;
 import mypack.serviceImpl.AdministorAccountServiceImpl;
 import mypack.serviceImpl.StuFileInfoServiceImpl;
 import mypack.serviceImpl.StudentAccountServiceImpl;
@@ -30,6 +31,10 @@ public class StudentController {
     @Autowired
     @Qualifier("StuChangePasswordServiceImpl")
     private ChangePasswordService stuChangePasswordServiceImpl;
+
+    @Autowired
+    @Qualifier("StuChangeSecurityQuestionServiceImpl")
+    private ChangeSecurityQuestionService stuChangeSecurityQuestionServiceImpl;
 
     @RequestMapping("/student/login")
     @ResponseBody
@@ -78,9 +83,11 @@ public class StudentController {
     @ResponseBody
     public Securitystu getStudentSecurity(HttpServletRequest request){
         System.out.println("here");
-
-        Securitystu securitystu=new Securitystu();
-        return securitystu;
+        Long id=Long.parseLong(request.getParameter("id"));
+        Securitystu securitystu=stuChangeSecurityQuestionServiceImpl.securityQuestionQuery(id);
+        if(securitystu!=null)
+            return securitystu;
+        return null;
     }
 
     @RequestMapping("/student/setPassword")
@@ -102,6 +109,32 @@ public class StudentController {
         stuChangePasswordServiceImpl.changePassword(id,newPass);
         System.out.println("out");
         data.setData(1);
+        return data;
+    }
+
+    @RequestMapping("/student/resetSecurity")
+    @ResponseBody
+    public Data resetSecurityPassword(HttpServletRequest request){
+        Long id =Long.parseLong(request.getParameter("id"));
+        String queone=request.getParameter("queone");
+        String quetwo=request.getParameter("quetwo");
+        String quethree=request.getParameter("quethree");
+        String ansone=request.getParameter("ansone");
+        String anstwo=request.getParameter("anstwo");
+        String ansthree=request.getParameter("ansthree");
+        System.out.println(id+"->"+queone+"->"+quetwo+"->"+quethree+"->"+ansone+"->"+anstwo+"->"+ansthree);
+        System.out.println("进入插入");
+        stuChangeSecurityQuestionServiceImpl.resetSecurityQuestion(id,queone,ansone,quetwo,anstwo,quethree,ansthree);
+        System.out.println("结束插入");
+
+        return new Data(1);
+    }
+
+    @RequestMapping("/student/checkAnswer")
+    @ResponseBody
+    public Data checkAnswer(HttpServletRequest request){
+        Data data=new Data();
+
         return data;
     }
 
