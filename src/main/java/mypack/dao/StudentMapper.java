@@ -1,6 +1,7 @@
 package mypack.dao;
 
 import mypack.Response.StudentInfo;
+import mypack.pojo.Securitystu;
 import mypack.pojo.Student;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
@@ -18,4 +19,10 @@ public interface StudentMapper {
                         @Param("politicalStatus") String politicalStatus, @Param("sex") String sex,
                         @Param("areaInterest") String areaInterest, @Param("title") String title
     );
+
+    @Select("select * from student where id=#{id} and password=#{password}")
+    Student checkStudentPassword(@Param("id") long id, @Param("password") String password);
+
+    @Select("UPDATE student SET password=#{password} WHERE id=#{id}")
+    void changeStudentPassword(@Param("id")long id,@Param("password")String password);
 }

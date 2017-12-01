@@ -18,6 +18,13 @@ public interface ProfessorMapper {
             "where professor.id=#{id}")
     void setProfessorInfo(@Param("id") long id, @Param("nationality") String nationality, @Param("teachingAge") int teachingAge,
                           @Param("educationBackground") String educationBackground, @Param("areaInterest") String areaInterest,
-                          @Param("politicalStatus") String politicalStatus
-    );
+                          @Param("politicalStatus") String politicalStatus);
+
+    @Select("select * from professor where id=#{id} and password=#{password}")
+    Professor checkProfessorPassword(@Param("id") long id, @Param("password") String password);
+
+    @Select("UPDATE professor SET password=#{password} WHERE id=#{id}")
+    void changeProfessorPassword(@Param("id")long id,@Param("password")String password);
+
+
 }
