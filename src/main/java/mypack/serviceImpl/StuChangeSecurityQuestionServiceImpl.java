@@ -22,6 +22,12 @@ public class StuChangeSecurityQuestionServiceImpl implements ChangeSecurityQuest
     @Override
     public boolean checkAnswer(Long id, String question1, String answer1, String question2, String answer2, String question3, String answer3) {
 
+        Securitystu securitystu=studentMapper.checkAnswer(id);
+        if(securitystu.getQueone().equals(question1) &&securitystu.getAnsone().equals(answer1)&&
+                securitystu.getQuetwo().equals(question2)&&securitystu.getAnstwo().equals(answer2)&&
+                securitystu.getQuethree().equals(question3)&&securitystu.getAnsthree().equals(answer3)){
+            return true;
+        }
         return false;
     }
 

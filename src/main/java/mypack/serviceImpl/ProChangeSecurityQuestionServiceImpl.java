@@ -15,6 +15,13 @@ public class ProChangeSecurityQuestionServiceImpl implements ChangeSecurityQuest
 
     @Override
     public boolean checkAnswer(Long id, String question1, String answer1, String question2, String answer2, String question3, String answer3) {
+        Securitypro securitypro=professorMapper.checkAnswer(id);
+//        System.out.println(securitypro.getQueone()+"->"+)
+        if(securitypro.getQueone().equals(question1) &&securitypro.getAnsone().equals(answer1)&&
+                securitypro.getQuetwo().equals(question2)&&securitypro.getAnstwo().equals(answer2)&&
+                securitypro.getQuethree().equals(question3)&&securitypro.getAnsthree().equals(answer3)){
+            return true;
+        }
         return false;
     }
 

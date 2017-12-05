@@ -1,12 +1,16 @@
 package mypack.controller;
 
 import mypack.Response.Data;
+import mypack.Response.NoticeInfo;
+import mypack.Response.Notify;
 import mypack.Response.TeacherInfo;
 import mypack.pojo.Professor;
 import mypack.pojo.Securitypro;
 import mypack.pojo.Securitystu;
 import mypack.service.ChangePasswordService;
 import mypack.service.ChangeSecurityQuestionService;
+import mypack.service.NotificationService;
+import mypack.serviceImpl.NotificationServiceImpl;
 import mypack.serviceImpl.ProfessorAccountServiceImpl;
 import mypack.serviceImpl.TeaFileInfoServiceImpl;
 import org.json.HTTP;
@@ -35,6 +39,10 @@ public class ProfessorController {
     @Autowired
     @Qualifier("ProChangeSecurityQuestionServiceImpl")
     private ChangeSecurityQuestionService proChangeSecurityQuestionServiceImpl;
+
+    @Autowired
+    @Qualifier("NotificationServiceImpl")
+    private NotificationService notificationServiceImpl;
 
     @RequestMapping("/teacher/login")
     @ResponseBody
@@ -90,7 +98,7 @@ public class ProfessorController {
 
     @RequestMapping("/teacher/setPassword")
     @ResponseBody
-    public Data setStudentPassword(HttpServletRequest request){
+    public Data setProfessorPassword(HttpServletRequest request){
         System.out.println("进入");
         long id=Long.parseLong(request.getParameter("id"));
         String oldPass=request.getParameter("oldPass");
@@ -132,9 +140,57 @@ public class ProfessorController {
     @ResponseBody
     public Data checkAnswer(HttpServletRequest request){
         Data data=new Data();
-
+        Long id =Long.parseLong(request.getParameter("id"));
+        String queone=request.getParameter("question1");
+        String quetwo=request.getParameter("question2");
+        String quethree=request.getParameter("question3");
+        String ansone=request.getParameter("answer1");
+        String anstwo=request.getParameter("answer2");
+        String ansthree=request.getParameter("answer3");
+        System.out.println(id+"->"+queone+"->"+quetwo+"->"+quethree+"->"+ansone+"->"+anstwo+"->"+ansthree);
+        boolean flag=proChangeSecurityQuestionServiceImpl.checkAnswer(id,queone,ansone,quetwo,anstwo,quethree,ansthree);
+        System.out.println(flag);
+        if(flag)
+            data.setData(1);
         return data;
     }
+
+    @RequestMapping("/teacher/notificationQuery")
+    @ResponseBody
+    public Notify getNotification(HttpServletRequest request){
+        Long id=Long.parseLong(request.getParameter("id"));
+        System.out.println("进入");
+        String notify=notificationServiceImpl.getNotification(id,1);
+        System.out.println("结束");
+        Notify notify1=new Notify(notify);
+        return notify1;
+    }
+
+    @RequestMapping("/teacher/deleteNotification")
+    @ResponseBody
+    public Data delNotifications(HttpServletRequest request){
+        Data data=new Data();
+        Long id=Long.parseLong(request.getParameter("id"));
+        if(notificationServiceImpl.delNotification(id))
+            data.setData(1);
+        else data.setData(0);
+        return data;
+    }
+
+    @RequestMapping("/teacher/ReadNotification")
+    @ResponseBody
+    public Data readNotifications(HttpServletRequest request){
+        Data data=new Data();
+        System.out.println(1111);
+        Long id=Long.parseLong(request.getParameter("id"));
+        if(notificationServiceImpl.readedNotification(id))
+            data.setData(1);
+        else data.setData(0);
+        System.out.println(2222);
+        System.out.println(data.toString());
+        return data;
+    }
+
 
 
 }

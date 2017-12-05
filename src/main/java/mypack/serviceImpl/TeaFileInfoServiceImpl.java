@@ -15,6 +15,7 @@ public class TeaFileInfoServiceImpl implements TeaFileInfoService {
     @Override
     public TeacherInfo getProfessorInfo(long id) {
        TeacherInfo teacherInfo= professorMapper.getProfessorInfo(id);
+       System.out.println(teacherInfo.toString());
         return teacherInfo;
     }
 

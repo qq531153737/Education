@@ -24,4 +24,9 @@ public class TeacherInfo extends Professor {
     public void setDepName(String depName) {
         this.depName = depName;
     }
+
+    @Override
+    public String toString() {
+        return "depName:"+depName;
+    }
 }

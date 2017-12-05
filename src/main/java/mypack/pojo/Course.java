@@ -6,6 +6,10 @@ public class Course implements Serializable {
     private long id;
     private String name;
     private String type;
+    private int credict;
+    private int totalTime;
+    private String learnTerm;
+    private String learnYear;
     private String classroom;
     private int depID;
     private int timeSlotID;
@@ -15,16 +19,54 @@ public class Course implements Serializable {
     public Course() {
     }
 
-    public Course(long id, String name, String type, String classroom, int depID, int timeSlotID, int proID, int admID) {
+    public Course(long id, String name, String type, int credict, int totalTime, String learnTerm, String learnYear, String classroom, int depID, int timeSlotID, int proID, int admID) {
         this.id = id;
         this.name = name;
         this.type = type;
+        this.credict = credict;
+        this.totalTime = totalTime;
+        this.learnTerm = learnTerm;
+        this.learnYear = learnYear;
         this.classroom = classroom;
         this.depID = depID;
         this.timeSlotID = timeSlotID;
         this.proID = proID;
         this.admID = admID;
     }
+
+    public int getCredict() {
+        return credict;
+    }
+
+    public void setCredict(int credict) {
+        this.credict = credict;
+    }
+
+    public int getTotalTime() {
+        return totalTime;
+    }
+
+    public void setTotalTime(int totalTime) {
+        this.totalTime = totalTime;
+    }
+
+    public String getLearnTerm() {
+        return learnTerm;
+    }
+
+    public void setLearnTerm(String learnTerm) {
+        this.learnTerm = learnTerm;
+    }
+
+    public String getLearnYear() {
+        return learnYear;
+    }
+
+    public void setLearnYear(String learnYear) {
+        this.learnYear = learnYear;
+    }
+
+
 
     public long getId() {
         return id;

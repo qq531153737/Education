@@ -1,12 +1,14 @@
 package mypack.controller;
 
 import mypack.Response.Data;
+import mypack.Response.Notify;
 import mypack.Response.StudentInfo;
 import mypack.pojo.Securitystu;
 import mypack.pojo.Student;
 import mypack.service.ChangePasswordService;
 import mypack.service.ChangeSecurityQuestionService;
 import mypack.serviceImpl.AdministorAccountServiceImpl;
+import mypack.serviceImpl.NotificationServiceImpl;
 import mypack.serviceImpl.StuFileInfoServiceImpl;
 import mypack.serviceImpl.StudentAccountServiceImpl;
 import org.json.HTTP;
@@ -36,6 +38,9 @@ public class StudentController {
     @Qualifier("StuChangeSecurityQuestionServiceImpl")
     private ChangeSecurityQuestionService stuChangeSecurityQuestionServiceImpl;
 
+    @Autowired
+    @Qualifier("NotificationServiceImpl")
+    private NotificationServiceImpl notificationServiceImple;
     @RequestMapping("/student/login")
     @ResponseBody
     public Data login(HttpServletRequest request) {
@@ -134,7 +139,50 @@ public class StudentController {
     @ResponseBody
     public Data checkAnswer(HttpServletRequest request){
         Data data=new Data();
+        Long id =Long.parseLong(request.getParameter("id"));
+        String queone=request.getParameter("question1");
+        String quetwo=request.getParameter("question2");
+        String quethree=request.getParameter("question3");
+        String ansone=request.getParameter("answer1");
+        String anstwo=request.getParameter("answer2");
+        String ansthree=request.getParameter("answer3");
+        System.out.println(id+"->"+queone+"->"+quetwo+"->"+quethree+"->"+ansone+"->"+anstwo+"->"+ansthree);
+        boolean flag=stuChangeSecurityQuestionServiceImpl.checkAnswer(id,queone,ansone,quetwo,anstwo,quethree,ansthree);
+        System.out.println(flag);
+        if(flag)
+            data.setData(1);
+        return data;
+    }
+    @RequestMapping("/student/notificationQuery")
+    @ResponseBody
+    public Notify getNotification(HttpServletRequest request){
+        Long id=Long.parseLong(request.getParameter("id"));
+        System.out.println("进入");
+        String notify=notificationServiceImple.getNotification(id,0);
+        System.out.println("结束");
+        Notify notify1=new Notify(notify);
+        return notify1;
+    }
 
+    @RequestMapping("/student/deleteNotification")
+    @ResponseBody
+    public Data delNotifications(HttpServletRequest request){
+        Data data=new Data();
+        Long id=Long.parseLong(request.getParameter("id"));
+        if(notificationServiceImple.delNotification(id))
+            data.setData(1);
+        else data.setData(0);
+        return data;
+    }
+
+    @RequestMapping("/student/ReadNotification")
+    @ResponseBody
+    public Data readNotifications(HttpServletRequest request){
+        Data data=new Data();
+        Long id=Long.parseLong(request.getParameter("id"));
+        if(notificationServiceImple.readedNotification(id))
+            data.setData(1);
+        else data.setData(0);
         return data;
     }
 

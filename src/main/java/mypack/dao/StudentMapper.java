@@ -37,4 +37,7 @@ public interface StudentMapper {
     @Select("SELECT * from securitystu WHERE stuID=#{id}")
     Securitystu securityQuestionQuery(@Param("id")long id);
 
+    @Select("select * from securitystu where stuID=#{id}")
+    Securitystu checkAnswer(@Param("id")long id);
+
 }

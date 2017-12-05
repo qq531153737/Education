@@ -37,4 +37,6 @@ public interface ProfessorMapper {
                                @Param("quethree")String quethree,@Param("ansone")String ansone,
                                @Param("anstwo")String anstwo,@Param("ansthree")String ansthree);
 
+    @Select("select * from securitypro where proID=#{id}")
+    Securitypro checkAnswer(@Param("id")long id);
 }
