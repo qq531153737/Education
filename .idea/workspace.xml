@@ -7,49 +7,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65628251-ca4a-45c0-be6b-27ffcedf4ece" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mypack/Response/NoticeInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mypack/Response/Notify.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mypack/Response/ScoreInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mypack/service/NotificationService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/NotificationServiceImpl.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/0.2f66007c53334c6f017d.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/0.2f66007c53334c6f017d.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/3.6a9e5c1223795aff19ac.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/3.6a9e5c1223795aff19ac.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/8.35e055446206991e770d.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/8.35e055446206991e770d.js.map" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/Response/TeacherInfo.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/Response/TeacherInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mypack/Response/ResponsdString.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mypack/service/StuQueryManagementService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/StudentQueryManagementServiceImpl.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/mypack/Response/Notify.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/7.ab3fb2e2f403ee25de4d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/7.ab3fb2e2f403ee25de4d.js.map" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/controller/ProfessorController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/controller/ProfessorController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/controller/StudentController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/controller/StudentController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/NoticeMapper.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/NoticeMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/ProfessorMapper.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/ProfessorMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/StudentMapper.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/StudentMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/pojo/Notice.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/pojo/Notice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/serviceImpl/TeaFileInfoServiceImpl.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/serviceImpl/TeaFileInfoServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/mypack/Response/TeacherInfo.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/Response/TeacherInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/TakesMapper.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/TakesMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/pojo/Course.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/pojo/Course.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/pojo/Takes.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/pojo/Takes.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/mypack/controller/ProfessorController.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/controller/ProfessorController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/mypack/controller/StudentController.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/controller/StudentController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/mypack/dao/NoticeMapper.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/dao/NoticeMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/mypack/dao/ProfessorMapper.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/dao/ProfessorMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/mypack/dao/StudentMapper.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/dao/StudentMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/mypack/pojo/Notice.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/pojo/Notice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/mypack/serviceImpl/TeaFileInfoServiceImpl.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/serviceImpl/TeaFileInfoServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/mypack/dao/TakesMapper.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/dao/TakesMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/mypack/pojo/Course.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/pojo/Course.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/mypack/pojo/Takes.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/pojo/Takes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/index.html" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mypack/Response/TeacherInfo.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/Response/TeacherInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mypack/Response/ScoreInfo.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/Response/ScoreInfo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mypack/controller/ProfessorController.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/controller/ProfessorController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mypack/controller/StudentController.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/controller/StudentController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mypack/dao/CourseMapper.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/dao/CourseMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mypack/dao/NoticeMapper.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/dao/NoticeMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mypack/dao/ProfessorMapper.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/dao/ProfessorMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mypack/dao/StudentMapper.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/dao/StudentMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mypack/dao/TakesMapper.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/dao/TakesMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mypack/pojo/Course.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/pojo/Course.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mypack/pojo/Notice.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/pojo/Notice.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mypack/pojo/Takes.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/pojo/Takes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/ProChangeSecurityQuestionServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/ProChangeSecurityQuestionServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/StuChangeSecurityQuestionServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/StuChangeSecurityQuestionServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/TeaFileInfoServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/TeaFileInfoServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -107,30 +89,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CourseMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/CourseMapper.java">
+      <file leaf-file-name="TakesMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/TakesMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="10" column="181" lean-forward="false" selection-start-line="10" selection-start-column="181" selection-end-line="10" selection-end-column="181" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TakesMapper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/TakesMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="takes" pinned="false" current-in-tab="false">
-        <entry file="das://table:/d4a1dab1/d75169cc-589a-4f72-8b74-d7115d20f2c4/education.takes">
+      <file leaf-file-name="noticestu" pinned="false" current-in-tab="false">
+        <entry file="das://table:/d4a1dab1/1076f3b8-2a2b-4ca0-9cf2-fc0c4dc4f6e0/education.noticestu">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -138,22 +108,78 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/StudentMapper.java">
+      <file leaf-file-name="noticepro" pinned="false" current-in-tab="false">
+        <entry file="das://table:/d4a1dab1/1076f3b8-2a2b-4ca0-9cf2-fc0c4dc4f6e0/education.noticepro">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="professor" pinned="false" current-in-tab="true">
+        <entry file="das://table:/d4a1dab1/1076f3b8-2a2b-4ca0-9cf2-fc0c4dc4f6e0/education.professor">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="student" pinned="false" current-in-tab="false">
+        <entry file="das://table:/d4a1dab1/1076f3b8-2a2b-4ca0-9cf2-fc0c4dc4f6e0/education.student">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="securitypro" pinned="false" current-in-tab="false">
+        <entry file="das://table:/d4a1dab1/1076f3b8-2a2b-4ca0-9cf2-fc0c4dc4f6e0/education.securitypro">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="securitystu" pinned="false" current-in-tab="false">
+        <entry file="das://table:/d4a1dab1/1076f3b8-2a2b-4ca0-9cf2-fc0c4dc4f6e0/education.securitystu">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Course.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mypack/pojo/Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="21" column="163" lean-forward="false" selection-start-line="21" selection-start-column="163" selection-end-line="21" selection-end-column="163" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProfessorMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/ProfessorMapper.java">
+      <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mypack/controller/StudentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="29" column="50" lean-forward="false" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
-              <folding />
+            <state relative-caret-position="3264">
+              <caret line="208" column="9" lean-forward="false" selection-start-line="208" selection-start-column="9" selection-end-line="208" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="notice" pinned="false" current-in-tab="false">
+        <entry file="das://table:/d4a1dab1/1076f3b8-2a2b-4ca0-9cf2-fc0c4dc4f6e0/education.notice">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -489,18 +515,25 @@
         <option value="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/TeaFileInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/pojo/Notice.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/Response/NoticeInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mypack/Response/Notify.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/service/NotificationService.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/NotificationServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/dao/NoticeMapper.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d75169cc-589a-4f72-8b74-d7115d20f2c4/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/mypack/controller/StudentController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mypack/controller/ProfessorController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mypack/Response/ScoreInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/dao/CourseMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mypack/pojo/Course.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/pojo/Takes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mypack/service/stuQueryManagementService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/StudentQueryMAnagementServiceImpl.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d75169cc-589a-4f72-8b74-d7115d20f2c4/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ab9f0f96-4eb5-4002-9b0a-be2cad14bd14/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/mypack/Response/Notify.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mypack/Response/ResponsdString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mypack/controller/ProfessorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mypack/service/StuQueryManagementService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mypack/pojo/Course.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mypack/Response/ScoreInfo.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1076f3b8-2a2b-4ca0-9cf2-fc0c4dc4f6e0/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/StudentQueryManagementServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/dao/TakesMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mypack/controller/StudentController.java" />
       </list>
     </option>
   </component>
@@ -517,9 +550,10 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1013" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="43" />
+    <option name="y" value="2" />
+    <option name="width" value="1377" />
     <option name="height" value="775" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -554,6 +588,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -648,27 +683,13 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="education" type="b2602c69:ProjectViewProjectNode" />
-              <item name="education" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="education" type="b2602c69:ProjectViewProjectNode" />
-              <item name="education" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -876,7 +897,12 @@
       <workItem from="1512376314991" duration="26000" />
       <workItem from="1512381695975" duration="1456000" />
       <workItem from="1512404343238" duration="2369000" />
-      <workItem from="1512435960683" duration="1490000" />
+      <workItem from="1512435960683" duration="9199000" />
+      <workItem from="1512460740627" duration="1000" />
+      <workItem from="1512461399340" duration="4176000" />
+      <workItem from="1512472157343" duration="8383000" />
+      <workItem from="1512482293285" duration="3677000" />
+      <workItem from="1512648093432" duration="712000" />
     </task>
     <task id="LOCAL-00001" summary="20171201&#10;密码修改">
       <created>1512138208025</created>
@@ -892,49 +918,56 @@
       <option name="project" value="LOCAL" />
       <updated>1512147647726</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="20171204&#10;查询通知">
+      <created>1512439372637</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1512439372637</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70927000" />
+    <option name="totallyTimeSpent" value="95585000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1013" height="775" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.47799698" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14646997" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22003035" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39875388" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40031153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5451713" sideWeight="0.5477997" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39093783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15781488" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32398754" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5450237" sideWeight="0.5477997" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24506828" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15781488" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.52200305" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.52200305" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2538941" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44548288" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -946,7 +979,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="20171201&#10;密码修改" />
     <MESSAGE value="20171201&#10;密码修改&#10;+&#10;tea密保修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="20171201&#10;密码修改&#10;+&#10;tea密保修改" />
+    <MESSAGE value="20171204&#10;查询通知" />
+    <MESSAGE value="20171206&#10;查成绩" />
+    <option name="LAST_COMMIT_MESSAGE" value="20171206&#10;查成绩" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -957,221 +992,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/NoticeProMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/controller/NoticeStuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/StuChangePasswordServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/ProfessorAccountServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="62" lean-forward="false" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/d4a1dab1/d75169cc-589a-4f72-8b74-d7115d20f2c4/education.securitystu">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/d4a1dab1/d75169cc-589a-4f72-8b74-d7115d20f2c4/education.securitypro">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/StuChangeSecurityQuestionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/Response/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/pojo/Clazz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/pojo/Securitystu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/Response/StudentInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/service/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/service/ChangeSecurityQuestionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/ProChangeSecurityQuestionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="59" lean-forward="false" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/d4a1dab1/d75169cc-589a-4f72-8b74-d7115d20f2c4/education.administor">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/pojo/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/pojo/NoticePro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/Response/TeacherInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/TeaFileInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/pojo/Notice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/Response/Notify.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/service/NotificationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/Response/NoticeInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/d4a1dab1/d75169cc-589a-4f72-8b74-d7115d20f2c4/education.notice">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/d4a1dab1/d75169cc-589a-4f72-8b74-d7115d20f2c4/education.noticestu">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/d4a1dab1/d75169cc-589a-4f72-8b74-d7115d20f2c4/education.noticepro">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d75169cc-589a-4f72-8b74-d7115d20f2c4/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/controller/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2448">
-          <caret line="162" column="34" lean-forward="false" selection-start-line="162" selection-start-column="34" selection-end-line="162" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1182,75 +1006,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/NotificationServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="34" lean-forward="false" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/controller/ProfessorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2669">
-          <caret line="177" column="5" lean-forward="false" selection-start-line="177" selection-start-column="5" selection-end-line="177" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/d4a1dab1/d75169cc-589a-4f72-8b74-d7115d20f2c4/education.professor">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://table:/d4a1dab1/d75169cc-589a-4f72-8b74-d7115d20f2c4/education.professor" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/d4a1dab1/d75169cc-589a-4f72-8b74-d7115d20f2c4/education.timeslot">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/d4a1dab1/d75169cc-589a-4f72-8b74-d7115d20f2c4/education.department">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/d4a1dab1/d75169cc-589a-4f72-8b74-d7115d20f2c4/education.student">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/NoticeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://table:/d4a1dab1/d75169cc-589a-4f72-8b74-d7115d20f2c4/education.timeslot" />
+    <entry file="das://table:/d4a1dab1/d75169cc-589a-4f72-8b74-d7115d20f2c4/education.department" />
+    <entry file="das://table:/d4a1dab1/d75169cc-589a-4f72-8b74-d7115d20f2c4/education.student" />
     <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/MajorMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1258,14 +1028,153 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/ProfessorMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="29" column="50" lean-forward="false" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/pojo/Takes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/service/StuFileInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d4a1dab1/d75169cc-589a-4f72-8b74-d7115d20f2c4/education.noticepro" />
+    <entry file="das://table:/d4a1dab1/d75169cc-589a-4f72-8b74-d7115d20f2c4/education.course" />
+    <entry file="das://table:/d4a1dab1/d75169cc-589a-4f72-8b74-d7115d20f2c4/education.major" />
+    <entry file="das://table:/d4a1dab1/d75169cc-589a-4f72-8b74-d7115d20f2c4/education.notice" />
+    <entry file="das://table:/d4a1dab1/d75169cc-589a-4f72-8b74-d7115d20f2c4/education.takes" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d75169cc-589a-4f72-8b74-d7115d20f2c4/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ab9f0f96-4eb5-4002-9b0a-be2cad14bd14/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d4a1dab1/ab9f0f96-4eb5-4002-9b0a-be2cad14bd14/education.takes" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/Response/StudentInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/Response/ScoreInfo.java">
+    <entry file="das://table:/d4a1dab1/ab9f0f96-4eb5-4002-9b0a-be2cad14bd14/education.course" />
+    <entry file="das://table:/d4a1dab1/ab9f0f96-4eb5-4002-9b0a-be2cad14bd14/education.noticestu" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/controller/TakesController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/StuFileInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/Response/ResponseString.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/Response/NoticeInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="22" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="31" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/pojo/TimeSlot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/NotificationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-178">
+          <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/controller/ProfessorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="168" column="32" lean-forward="false" selection-start-line="168" selection-start-column="32" selection-end-line="168" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/NoticeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/NoticeProMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d4a1dab1/1076f3b8-2a2b-4ca0-9cf2-fc0c4dc4f6e0/education.course">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/Response/ResponsdString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/service/StuQueryManagementService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1278,85 +1187,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/d4a1dab1/d75169cc-589a-4f72-8b74-d7115d20f2c4/education.course">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1076f3b8-2a2b-4ca0-9cf2-fc0c4dc4f6e0/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/ProfessorMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/Response/ScoreInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="29" column="50" lean-forward="false" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+        <state relative-caret-position="442">
+          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/StudentMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="527">
+          <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/StudentQueryManagementServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="86" lean-forward="false" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mypack/pojo/Course.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
-          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1061#1062#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="e#1175#1176#0" expanded="true" />
-            <element signature="e#1207#1208#0" expanded="true" />
-            <element signature="e#1254#1255#0" expanded="true" />
-            <element signature="e#1296#1297#0" expanded="true" />
-            <element signature="e#1332#1333#0" expanded="true" />
-            <element signature="e#1364#1365#0" expanded="true" />
-            <element signature="e#1414#1415#0" expanded="true" />
-            <element signature="e#1456#1457#0" expanded="true" />
-            <element signature="e#1492#1493#0" expanded="true" />
-            <element signature="e#1524#1525#0" expanded="true" />
-            <element signature="e#1574#1575#0" expanded="true" />
-            <element signature="e#1616#1617#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="21" column="163" lean-forward="false" selection-start-line="21" selection-start-column="163" selection-end-line="21" selection-end-column="163" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/pojo/Takes.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/TakesMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="102">
+          <caret line="10" column="181" lean-forward="false" selection-start-line="10" selection-start-column="181" selection-end-line="10" selection-end-column="181" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3264">
+          <caret line="208" column="9" lean-forward="false" selection-start-line="208" selection-start-column="9" selection-end-line="208" selection-end-column="9" />
           <folding>
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/d4a1dab1/d75169cc-589a-4f72-8b74-d7115d20f2c4/education.takes">
+    <entry file="das://table:/d4a1dab1/1076f3b8-2a2b-4ca0-9cf2-fc0c4dc4f6e0/education.notice">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/TakesMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="das://table:/d4a1dab1/1076f3b8-2a2b-4ca0-9cf2-fc0c4dc4f6e0/education.noticepro">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d4a1dab1/1076f3b8-2a2b-4ca0-9cf2-fc0c4dc4f6e0/education.securitypro">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d4a1dab1/1076f3b8-2a2b-4ca0-9cf2-fc0c4dc4f6e0/education.securitystu">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d4a1dab1/1076f3b8-2a2b-4ca0-9cf2-fc0c4dc4f6e0/education.noticestu">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d4a1dab1/1076f3b8-2a2b-4ca0-9cf2-fc0c4dc4f6e0/education.student">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d4a1dab1/1076f3b8-2a2b-4ca0-9cf2-fc0c4dc4f6e0/education.professor">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>

@@ -2,7 +2,7 @@ package mypack.controller;
 
 import mypack.Response.Data;
 import mypack.Response.NoticeInfo;
-import mypack.Response.Notify;
+import mypack.Response.ResponsdString;
 import mypack.Response.TeacherInfo;
 import mypack.pojo.Professor;
 import mypack.pojo.Securitypro;
@@ -157,12 +157,12 @@ public class ProfessorController {
 
     @RequestMapping("/teacher/notificationQuery")
     @ResponseBody
-    public Notify getNotification(HttpServletRequest request){
+    public ResponsdString getNotification(HttpServletRequest request){
         Long id=Long.parseLong(request.getParameter("id"));
         System.out.println("进入");
         String notify=notificationServiceImpl.getNotification(id,1);
         System.out.println("结束");
-        Notify notify1=new Notify(notify);
+        ResponsdString notify1=new ResponsdString(notify);
         return notify1;
     }
 

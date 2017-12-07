@@ -1,16 +1,14 @@
 package mypack.controller;
 
 import mypack.Response.Data;
-import mypack.Response.Notify;
+import mypack.Response.ResponsdString;
+import mypack.Response.ScoreInfo;
 import mypack.Response.StudentInfo;
 import mypack.pojo.Securitystu;
 import mypack.pojo.Student;
 import mypack.service.ChangePasswordService;
 import mypack.service.ChangeSecurityQuestionService;
-import mypack.serviceImpl.AdministorAccountServiceImpl;
-import mypack.serviceImpl.NotificationServiceImpl;
-import mypack.serviceImpl.StuFileInfoServiceImpl;
-import mypack.serviceImpl.StudentAccountServiceImpl;
+import mypack.serviceImpl.*;
 import org.json.HTTP;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -41,6 +39,11 @@ public class StudentController {
     @Autowired
     @Qualifier("NotificationServiceImpl")
     private NotificationServiceImpl notificationServiceImple;
+
+    @Autowired
+    @Qualifier("StudentQueryManagementServiceImpl")
+    private StudentQueryManagementServiceImpl studentQueryManagementServiceImpl;
+
     @RequestMapping("/student/login")
     @ResponseBody
     public Data login(HttpServletRequest request) {
@@ -155,13 +158,13 @@ public class StudentController {
     }
     @RequestMapping("/student/notificationQuery")
     @ResponseBody
-    public Notify getNotification(HttpServletRequest request){
+    public ResponsdString getNotification(HttpServletRequest request){
         Long id=Long.parseLong(request.getParameter("id"));
         System.out.println("进入");
-        String notify=notificationServiceImple.getNotification(id,0);
+        String notify1=notificationServiceImple.getNotification(id,0);
         System.out.println("结束");
-        Notify notify1=new Notify(notify);
-        return notify1;
+        ResponsdString notify=new ResponsdString(notify1);
+        return notify;
     }
 
     @RequestMapping("/student/deleteNotification")
@@ -184,6 +187,32 @@ public class StudentController {
             data.setData(1);
         else data.setData(0);
         return data;
+    }
+
+    @RequestMapping("/student/scorequery")
+    @ResponseBody
+    public ResponsdString scorequery(HttpServletRequest request){
+
+        Long id=Long.parseLong(request.getParameter("id"));
+        String learnYear=request.getParameter("selectYear");
+        System.out.println(request);
+        Integer learnTerm=0;
+        if(request.getParameter("selectTerm")!=""){
+            System.out.println(11);
+
+            learnTerm=Integer.parseInt(request.getParameter("selectTerm"));
+    }
+        Integer courseType=0;
+        if(request.getParameter("selectType")!="") {
+            System.out.println(22);
+            courseType = Integer.parseInt(request.getParameter("selectType"));
+        }
+        System.out.println("开始查询");
+        System.out.println(id+">"+learnYear+">"+learnTerm+">"+courseType);
+        String result=studentQueryManagementServiceImpl.scoreQuery(id,learnYear,learnTerm,courseType);
+        System.out.println("over");
+        ResponsdString responsdString=new ResponsdString(result);
+        return responsdString;
     }
 
 }

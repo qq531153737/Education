@@ -1,9 +1,12 @@
 package mypack.Response;
 
-public class Notify {
+public class ResponsdString {
     private String string;
 
-    public Notify(String string) {
+    public ResponsdString() {
+    }
+
+    public ResponsdString(String string) {
         this.string = string;
     }
 

@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class Course implements Serializable {
     private long id;
     private String name;
-    private String type;
+    private int type;
     private int credict;
     private int totalTime;
     private String learnTerm;
@@ -13,13 +13,13 @@ public class Course implements Serializable {
     private String classroom;
     private int depID;
     private int timeSlotID;
-    private int proID;
+    private long proID;
     private int admID;
 
     public Course() {
     }
 
-    public Course(long id, String name, String type, int credict, int totalTime, String learnTerm, String learnYear, String classroom, int depID, int timeSlotID, int proID, int admID) {
+    public Course(long id, String name, int type, int credict, int totalTime, String learnTerm, String learnYear, String classroom, int depID, int timeSlotID, long proID, int admID) {
         this.id = id;
         this.name = name;
         this.type = type;
@@ -84,11 +84,11 @@ public class Course implements Serializable {
         this.name = name;
     }
 
-    public String getType() {
+    public int getType() {
         return type;
     }
 
-    public void setType(String type) {
+    public void setType(int type) {
         this.type = type;
     }
 
@@ -116,11 +116,11 @@ public class Course implements Serializable {
         this.timeSlotID = timeSlotID;
     }
 
-    public int getProID() {
+    public long getProID() {
         return proID;
     }
 
-    public void setProID(int proID) {
+    public void setProID(long proID) {
         this.proID = proID;
     }
 
