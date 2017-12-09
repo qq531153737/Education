@@ -5,20 +5,36 @@ import java.sql.Time;
 
 public class TimeSlot implements Serializable {
     private int id;
-    private Time startTime;
-    private Time endTime;
+    private String startWeek;
+    private String endWeek;
     private String times;
+
+    public TimeSlot(int id, String startWeek, String endWeek, String times) {
+        this.id = id;
+        this.startWeek = startWeek;
+        this.endWeek = endWeek;
+        this.times = times;
+    }
+
+    public String getStartWeek() {
+        return startWeek;
+    }
+
+    public void setStartWeek(String startWeek) {
+        this.startWeek = startWeek;
+    }
+
+    public String getEndWeek() {
+        return endWeek;
+    }
+
+    public void setEndWeek(String endWeek) {
+        this.endWeek = endWeek;
+    }
 
     public TimeSlot() {
     }
 
-    public TimeSlot(int id, Time startTime, Time endTime, String times) {
-
-        this.id = id;
-        this.startTime = startTime;
-        this.endTime = endTime;
-        this.times = times;
-    }
 
     public int getId() {
 
@@ -29,21 +45,8 @@ public class TimeSlot implements Serializable {
         this.id = id;
     }
 
-    public Time getStartTime() {
-        return startTime;
-    }
 
-    public void setStartTime(Time startTime) {
-        this.startTime = startTime;
-    }
 
-    public Time getEndTime() {
-        return endTime;
-    }
-
-    public void setEndTime(Time endTime) {
-        this.endTime = endTime;
-    }
 
     public String getTimes() {
         return times;

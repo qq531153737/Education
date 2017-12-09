@@ -8,6 +8,7 @@ import mypack.pojo.Securitystu;
 import mypack.pojo.Student;
 import mypack.service.ChangePasswordService;
 import mypack.service.ChangeSecurityQuestionService;
+import mypack.service.ClassTableQueryService;
 import mypack.serviceImpl.*;
 import org.json.HTTP;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -43,6 +44,10 @@ public class StudentController {
     @Autowired
     @Qualifier("StudentQueryManagementServiceImpl")
     private StudentQueryManagementServiceImpl studentQueryManagementServiceImpl;
+
+    @Autowired
+    @Qualifier("StuClassTableQueryServiceImpl")
+    private ClassTableQueryService stuClassTableQueryServiceImpl;
 
     @RequestMapping("/student/login")
     @ResponseBody
@@ -214,5 +219,36 @@ public class StudentController {
         ResponsdString responsdString=new ResponsdString(result);
         return responsdString;
     }
+
+    @RequestMapping("/student/coursequery")
+    @ResponseBody
+    public ResponsdString courseQuery(HttpServletRequest request){
+        System.out.println("1");
+        Long id=Long.parseLong(request.getParameter("id"));
+        String searchWays=request.getParameter("searchWay");
+        String keyWords=request.getParameter("searchKeyWords");
+        System.out.println(searchWays);
+        String result=studentQueryManagementServiceImpl.courseQuery(id,searchWays,keyWords);
+        System.out.print("yes2");
+        ResponsdString responsdString=new ResponsdString(result);
+        return responsdString;
+
+    }
+
+    @RequestMapping("/student/classtablequery")
+    @ResponseBody
+    public ResponsdString getClassTableQuery(HttpServletRequest request){
+        System.out.println("yessey");
+        Long id=Long.parseLong(request.getParameter("id"));
+        String learnYear=request.getParameter("selectYear");
+        Integer learnTerm=Integer.parseInt(request.getParameter("selectMonth"));
+        System.out.println("123");
+        String result=stuClassTableQueryServiceImpl.getStudentClassTable(id,learnYear,learnTerm);
+        System.out.print("yes2");
+        ResponsdString responsdString=new ResponsdString(result);
+        return responsdString;
+
+    }
+
 
 }

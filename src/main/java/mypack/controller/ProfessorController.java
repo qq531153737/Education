@@ -9,6 +9,7 @@ import mypack.pojo.Securitypro;
 import mypack.pojo.Securitystu;
 import mypack.service.ChangePasswordService;
 import mypack.service.ChangeSecurityQuestionService;
+import mypack.service.ClassTableQueryService;
 import mypack.service.NotificationService;
 import mypack.serviceImpl.NotificationServiceImpl;
 import mypack.serviceImpl.ProfessorAccountServiceImpl;
@@ -43,6 +44,10 @@ public class ProfessorController {
     @Autowired
     @Qualifier("NotificationServiceImpl")
     private NotificationService notificationServiceImpl;
+
+    @Autowired
+    @Qualifier("ProClassTableQueryServiceImpl")
+    private ClassTableQueryService proClassTableQueryServiceImpl;
 
     @RequestMapping("/teacher/login")
     @ResponseBody
@@ -189,6 +194,18 @@ public class ProfessorController {
         System.out.println(2222);
         System.out.println(data.toString());
         return data;
+    }
+
+    @RequestMapping("/teacher/classtablequery")
+    @ResponseBody
+    public ResponsdString getClassTableQuery(HttpServletRequest request){
+        Long id=Long.parseLong(request.getParameter("id"));
+        String learnYear=request.getParameter("selectYear");
+        Integer learnTerm=Integer.parseInt(request.getParameter("selectMonth"));
+        String result=proClassTableQueryServiceImpl.getProfessorClassTable(id,learnYear,learnTerm);
+        ResponsdString responsdString=new ResponsdString(result);
+
+        return responsdString;
     }
 
 
