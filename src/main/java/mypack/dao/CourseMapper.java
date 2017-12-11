@@ -44,5 +44,9 @@ public interface CourseMapper {
             "where course.timeSlotID=timeslot.id and course.depID=department.id and course.proID =professor.id and course.type=#{type}\n")
     ArrayList<CourseInfo> courseQuerybyType(@Param("type")int type);
 
+    @Select({"<script> select course.*,timeslot.startWeek,timeslot.endWeek,timeslot.times,professor.name as teaName,department.name as depName\n" +
+            "from course,timeslot,professor,department\n" +
+            "where course.timeSlotID=timeslot.id and course.depID=department.id and course.proID =professor.id and course.proID=#{id} and course.learnYear=#{learnYear} and course.learnTerm=#{learnTerm} <when test='type!=0'> and course.type=#{type}</when></script>"})
+    ArrayList<CourseInfo> procoursequery(@Param("id")long id,@Param("learnYear")String learnYear,@Param("learnTerm")int learnTerm,@Param("type")int type);
 
 }

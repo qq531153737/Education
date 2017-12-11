@@ -11,8 +11,8 @@ public class CourseInfo extends Course{
     public CourseInfo() {
     }
 
-    public CourseInfo(long id, String name, int type, int credict, int totalTime, String learnTerm, String learnYear, String classroom, int depID, int timeSlotID, long proID, int admID, String startWeek, String endWeek, String times, String teaName, String depName) {
-        super(id, name, type, credict, totalTime, learnTerm, learnYear, classroom, depID, timeSlotID, proID, admID);
+    public CourseInfo(long id, String name, int type, int credict, int totalTime, String learnTerm, String learnYear, String classroom, int depID, int timeSlotID, long proID, int admID, int stuNumber, int quantity, String startWeek, String endWeek, String times, String teaName, String depName) {
+        super(id, name, type, credict, totalTime, learnTerm, learnYear, classroom, depID, timeSlotID, proID, admID, stuNumber, quantity);
         this.startWeek = startWeek;
         this.endWeek = endWeek;
         this.times = times;
@@ -67,7 +67,7 @@ public class CourseInfo extends Course{
     }
 
     public String toAllString() {
-        return "cID:"+getId()+",cname:"+getName()+",teacher:"+getTeaName()+",classroom:"+getClassroom()+",ctype:"+getStrType()+",clscore:"+getCredict()+",cltime:"+getTotalTime()+",cbelongto:"+getDepName();
+        return "cID:"+getId()+",cname:"+getName()+",teacher:"+getTeaName()+",classroom:"+getClassroom()+",ctype:"+getStrType()+",clscore:"+getCredict()+",cltime:"+getTotalTime()+",cbelongto:"+getDepName()+",weeks:"+getLastingTime()+",stuNumber:"+getStuNumber()+",quantity:"+getQuantity();
     }
     private String getStrType(){
         if(getType()==1)
@@ -76,5 +76,9 @@ public class CourseInfo extends Course{
             return "选修课";
         else
             return "通选课";
+    }
+    private String getLastingTime(){
+        return "第"+getStartWeek()+"--"+getEndWeek()+"周";
+
     }
 }

@@ -26,12 +26,12 @@ public class ScoreInfo extends Course{
         this.depName=depName;
     }
 
-    public ScoreInfo(long id, String name, int type, int credict, int totalTime, String learnTerm, String learnYear, String classroom, int depID, int timeSlotID, long proID, int admID, float score, int ranking, float point,String depName) {
-        super(id, name, type, credict, totalTime, learnTerm, learnYear, classroom, depID, timeSlotID, proID, admID);
+    public ScoreInfo(long id, String name, int type, int credict, int totalTime, String learnTerm, String learnYear, String classroom, int depID, int timeSlotID, long proID, int admID, int stuNumber, int quantity, float score, int ranking, float point, String depName) {
+        super(id, name, type, credict, totalTime, learnTerm, learnYear, classroom, depID, timeSlotID, proID, admID, stuNumber, quantity);
         this.score = score;
         this.ranking = ranking;
         this.point = point;
-        this.depName=depName;
+        this.depName = depName;
     }
 
     public float getScore() {

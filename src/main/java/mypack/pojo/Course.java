@@ -15,11 +15,26 @@ public class Course implements Serializable {
     private int timeSlotID;
     private long proID;
     private int admID;
+    private int stuNumber;
+    private int quantity;
 
-    public Course() {
+    public int getStuNumber() {
+        return stuNumber;
     }
 
-    public Course(long id, String name, int type, int credict, int totalTime, String learnTerm, String learnYear, String classroom, int depID, int timeSlotID, long proID, int admID) {
+    public void setStuNumber(int stuNumber) {
+        this.stuNumber = stuNumber;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    public Course(long id, String name, int type, int credict, int totalTime, String learnTerm, String learnYear, String classroom, int depID, int timeSlotID, long proID, int admID, int stuNumber, int quantity) {
         this.id = id;
         this.name = name;
         this.type = type;
@@ -32,7 +47,14 @@ public class Course implements Serializable {
         this.timeSlotID = timeSlotID;
         this.proID = proID;
         this.admID = admID;
+        this.stuNumber = stuNumber;
+        this.quantity = quantity;
     }
+
+    public Course() {
+    }
+
+
 
     public int getCredict() {
         return credict;
