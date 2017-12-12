@@ -265,7 +265,10 @@ public class ProfessorController {
     public Data batchingRegister(HttpServletRequest request){
         String []jsonArr=request.getParameterValues("scoreBat[]");
         System.out.println(jsonArr.length);
-        System.out.println(jsonArr[0]);
+        for(int i=0;i<jsonArr.length;i++){
+            System.out.println(jsonArr[i]);
+        }
+
         Data data=new Data();
         if(proScoreRecordServiceImpl.batchScoreRegister(jsonArr))
             data.setData(1);

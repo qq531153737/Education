@@ -19,12 +19,12 @@ public class Student implements Serializable {
     private String politicalStatus;
     private int majId;
     private long claId;
-    private Long proId;
+
 
     public Student() {
     }
 
-    public Student(long id, String password, String name, Date timeEnrollment, Date timeGraduation, String title, String sex, Date birthday, String nationality, String areaInterest, String healthState, String nativePlace, String politicalStatus, int majId, long claId, Long proId) {
+    public Student(long id, String password, String name, Date timeEnrollment, Date timeGraduation, String title, String sex, Date birthday, String nationality, String areaInterest, String healthState, String nativePlace, String politicalStatus, int majId, long claId) {
 
         this.id = id;
         this.password = password;
@@ -41,7 +41,7 @@ public class Student implements Serializable {
         this.politicalStatus = politicalStatus;
         this.majId = majId;
         this.claId = claId;
-        this.proId = proId;
+
     }
 
     public long getId() {
@@ -165,11 +165,4 @@ public class Student implements Serializable {
         this.claId = claId;
     }
 
-    public Long getProId() {
-        return proId;
-    }
-
-    public void setProId(Long proId) {
-        this.proId = proId;
-    }
 }

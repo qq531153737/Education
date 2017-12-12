@@ -11,8 +11,8 @@ public class CourseInfo extends Course{
     public CourseInfo() {
     }
 
-    public CourseInfo(long id, String name, int type, int credict, int totalTime, String learnTerm, String learnYear, String classroom, int depID, int timeSlotID, long proID, int admID, int stuNumber, int quantity, String startWeek, String endWeek, String times, String teaName, String depName) {
-        super(id, name, type, credict, totalTime, learnTerm, learnYear, classroom, depID, timeSlotID, proID, admID, stuNumber, quantity);
+    public CourseInfo(long id, String name, int type, int credict, int totalTime, String learnTerm, String learnYear, String classroom, int depID, int timeSlotID, long proID, int admID, int stuNumber, int quantity, int opening, String startWeek, String endWeek, String times, String teaName, String depName) {
+        super(id, name, type, credict, totalTime, learnTerm, learnYear, classroom, depID, timeSlotID, proID, admID, stuNumber, quantity, opening);
         this.startWeek = startWeek;
         this.endWeek = endWeek;
         this.times = times;

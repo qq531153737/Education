@@ -9,8 +9,8 @@ public class TakesInfo extends Takes{
     public TakesInfo() {
     }
 
-    public TakesInfo(long stuId, long couId, double grade, int ranking, int performancePoint, String couName, String stuName) {
-        super(stuId, couId, grade, ranking, performancePoint);
+    public TakesInfo(long stuId, long couId, double grade, int ranking, int performancePoint, int selected, String couName, String stuName) {
+        super(stuId, couId, grade, ranking, performancePoint, selected);
         this.couName = couName;
         this.stuName = stuName;
     }

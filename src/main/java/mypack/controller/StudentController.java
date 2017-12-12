@@ -1,14 +1,12 @@
 package mypack.controller;
 
-import mypack.Response.Data;
-import mypack.Response.ResponsdString;
-import mypack.Response.ScoreInfo;
-import mypack.Response.StudentInfo;
+import mypack.Response.*;
 import mypack.pojo.Securitystu;
 import mypack.pojo.Student;
 import mypack.service.ChangePasswordService;
 import mypack.service.ChangeSecurityQuestionService;
 import mypack.service.ClassTableQueryService;
+import mypack.service.StuSelectCourseService;
 import mypack.serviceImpl.*;
 import org.json.HTTP;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -48,6 +46,10 @@ public class StudentController {
     @Autowired
     @Qualifier("StuClassTableQueryServiceImpl")
     private ClassTableQueryService stuClassTableQueryServiceImpl;
+
+    @Autowired
+    @Qualifier("StuCourseSelectServiceImpl")
+    private StuSelectCourseService stuSelectCourseServiceImpl;
 
     @RequestMapping("/student/login")
     @ResponseBody
@@ -250,5 +252,14 @@ public class StudentController {
 
     }
 
+    @RequestMapping("/sutdent/department")
+    @ResponseBody
+    StudentDepartResponse getStudentDepId(HttpServletRequest request){
+        Long id=Long.parseLong(request.getParameter("id"));
+        System.out.println(id);
+        StudentDepartResponse studentDepartResponse=stuSelectCourseServiceImpl.getStudentDepart(id);
+        System.out.println(studentDepartResponse.getDepId());
+        return studentDepartResponse;
+    }
 
 }

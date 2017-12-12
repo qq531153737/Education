@@ -63,13 +63,16 @@ public class ProScoreRecordServiceImpl implements ProScoreRecordService {
         Float []grade=new Float[jsonArr.length];
         boolean flag=true;
         for(int i=0;i<jsonArr.length;i++){
-            System.out.println(i);
+            System.out.println(jsonArr[i]);
 
             String temp=jsonArr[i].substring(1,jsonArr[i].length()-1);
             String []eles=temp.split(",");
+            for(int j=0;j<eles.length;j++)
+                System.out.println(eles[j].split(":")[1]);
             cid[i]=Long.parseLong(eles[0].split(":")[1]);
             sid[i]=Long.parseLong(eles[1].split(":")[1]);
             String temp2=eles[2].split(":")[1];
+
             if(!isNumeric(temp2)) {
                 flag = false;
                 break;

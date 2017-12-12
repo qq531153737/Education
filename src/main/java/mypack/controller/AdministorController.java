@@ -1,6 +1,7 @@
 package mypack.controller;
 
 
+import mypack.Response.Data;
 import mypack.serviceImpl.AdministorAccountServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -21,11 +22,16 @@ public class AdministorController {
 
     @RequestMapping("/administor/login")
     @ResponseBody
-    public int login(HttpServletRequest request) {
+    public Data login(HttpServletRequest request) {
         String id=request.getParameter("id");
+        System.out.println(id);
         String password=request.getParameter("password");
+        System.out.println(password);
+        Data data=new Data();
         if(administorAccountService.login(Long.parseLong(id), password))
-            return 1;
-        return 0;
+            data.setData(1);
+        else
+            data.setData(2);
+        return data;
     }
 }

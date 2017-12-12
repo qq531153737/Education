@@ -16,8 +16,8 @@ public class StudentInfo extends Student {
         this.claName = claName;
     }
 
-    public StudentInfo(long id, String password, String name, Date timeEnrollment, Date timeGraduation, String title, String sex, Date birthday, String nationality, String areaInterest, String healthState, String nativePlace, String politicalStatus, int majId, long claId, Long proId, String majName, String depName, String claName) {
-        super(id, password, name, timeEnrollment, timeGraduation, title, sex, birthday, nationality, areaInterest, healthState, nativePlace, politicalStatus, majId, claId, proId);
+    public StudentInfo(long id, String password, String name, Date timeEnrollment, Date timeGraduation, String title, String sex, Date birthday, String nationality, String areaInterest, String healthState, String nativePlace, String politicalStatus, int majId, long claId, String majName, String depName, String claName) {
+        super(id, password, name, timeEnrollment, timeGraduation, title, sex, birthday, nationality, areaInterest, healthState, nativePlace, politicalStatus, majId, claId);
         this.majName = majName;
         this.depName = depName;
         this.claName = claName;

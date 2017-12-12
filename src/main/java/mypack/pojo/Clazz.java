@@ -7,17 +7,25 @@ public class Clazz implements Serializable {
     private String name;
     private int quantity;
     private int majID;
-
+    private Long proId;
     public Clazz() {
     }
 
-    public Clazz(long id, String name, int quantity, int majID) {
+    public Clazz(long id, String name, int quantity, int majID, Long proId) {
         this.id = id;
         this.name = name;
         this.quantity = quantity;
         this.majID = majID;
+        this.proId = proId;
     }
 
+    public Long getProId() {
+        return proId;
+    }
+
+    public void setProId(Long proId) {
+        this.proId = proId;
+    }
     public long getId() {
         return id;
     }

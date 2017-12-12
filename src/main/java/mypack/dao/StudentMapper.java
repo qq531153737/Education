@@ -1,11 +1,14 @@
 package mypack.dao;
 
+import mypack.Response.SelectCourseInfo;
+import mypack.Response.StudentDepartResponse;
 import mypack.Response.StudentInfo;
-import mypack.pojo.Securitypro;
 import mypack.pojo.Securitystu;
 import mypack.pojo.Student;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
+
+import java.util.ArrayList;
 
 public interface StudentMapper {
     @Select("select * from student where id=#{id} and password=#{password}")
@@ -40,4 +43,13 @@ public interface StudentMapper {
     @Select("select * from securitystu where stuID=#{id}")
     Securitystu checkAnswer(@Param("id")long id);
 
+    @Select("SELECT student.id as stuId,major.depID as depId\n" +
+            "from student,major\n" +
+            "where student.id=#{id} and student.majID=major.id")
+    StudentDepartResponse getDepartId(@Param("id") long id);
+
+
+
+    @Select("")
+    ArrayList<SelectCourseInfo> getSelectClass(@Param("id")int id);
 }

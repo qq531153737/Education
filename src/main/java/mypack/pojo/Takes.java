@@ -8,16 +8,26 @@ public class Takes implements Serializable {
     private double grade;
     private int ranking;
     private int PerformancePoint;
+    private int selected;
+
+    public int getSelected() {
+        return selected;
+    }
+
+    public void setSelected(int selected) {
+        this.selected = selected;
+    }
 
     public Takes() {
     }
 
-    public Takes(long stuId, long couId, double grade, int ranking, int performancePoint) {
+    public Takes(long stuId, long couId, double grade, int ranking, int performancePoint, int selected) {
         this.stuId = stuId;
         this.couId = couId;
         this.grade = grade;
         this.ranking = ranking;
-        PerformancePoint = performancePoint;
+        this.PerformancePoint = performancePoint;
+        this.selected = selected;
     }
 
     public int getRanking() {

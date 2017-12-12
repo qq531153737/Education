@@ -14,8 +14,9 @@ public class AdministorAccountServiceImpl implements AccountService {
 
     @Override
     public boolean login(long id, String password) {
-
-        if(administorMapper.findWithIdAndPassword((int)id, password) == null) {
+        Administor administor=administorMapper.findWithIdAndPassword((int)id, password);
+        System.out.println(administor);
+        if(administor== null) {
             return false;
         }
         return true;

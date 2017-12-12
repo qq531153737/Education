@@ -17,6 +17,15 @@ public class Course implements Serializable {
     private int admID;
     private int stuNumber;
     private int quantity;
+    private int opening;
+
+    public int getOpening() {
+        return opening;
+    }
+
+    public void setOpening(int opening) {
+        this.opening = opening;
+    }
 
     public int getStuNumber() {
         return stuNumber;
@@ -34,7 +43,7 @@ public class Course implements Serializable {
         this.quantity = quantity;
     }
 
-    public Course(long id, String name, int type, int credict, int totalTime, String learnTerm, String learnYear, String classroom, int depID, int timeSlotID, long proID, int admID, int stuNumber, int quantity) {
+    public Course(long id, String name, int type, int credict, int totalTime, String learnTerm, String learnYear, String classroom, int depID, int timeSlotID, long proID, int admID, int stuNumber, int quantity, int opening) {
         this.id = id;
         this.name = name;
         this.type = type;
@@ -49,6 +58,7 @@ public class Course implements Serializable {
         this.admID = admID;
         this.stuNumber = stuNumber;
         this.quantity = quantity;
+        this.opening = opening;
     }
 
     public Course() {
