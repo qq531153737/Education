@@ -1,7 +1,9 @@
 package mypack.serviceImpl;
 
+import com.sun.org.apache.xpath.internal.operations.Bool;
 import mypack.Response.CourseInfo;
 import mypack.Response.ScoreInfo;
+import mypack.Response.TakesInfo;
 import mypack.dao.CourseMapper;
 import mypack.dao.TakesMapper;
 import mypack.service.ProScoreRecordService;
@@ -54,10 +56,61 @@ public class ProScoreRecordServiceImpl implements ProScoreRecordService {
 
     }
 
+    @Override
+    public Boolean batchScoreRegister(String[] jsonArr) {
+        Long []cid=new Long[jsonArr.length];
+        Long []sid=new Long[jsonArr.length];
+        Float []grade=new Float[jsonArr.length];
+        boolean flag=true;
+        for(int i=0;i<jsonArr.length;i++){
+            System.out.println(i);
 
+            String temp=jsonArr[i].substring(1,jsonArr[i].length()-1);
+            String []eles=temp.split(",");
+            cid[i]=Long.parseLong(eles[0].split(":")[1]);
+            sid[i]=Long.parseLong(eles[1].split(":")[1]);
+            String temp2=eles[2].split(":")[1];
+            if(!isNumeric(temp2)) {
+                flag = false;
+                break;
+            }
+            grade[i]=Float.parseFloat(temp2);
+        }
+        if(!flag) return false;
+        for(int i=0;i<jsonArr.length;i++){
+            System.out.println(grade[i]);
+            takesMapper.updateSingleScore(cid[i],sid[i],grade[i]);
+            System.out.println(cid[i]);
+
+        }
+
+
+        return true;
+
+    }
+
+    @Override
+    public String studentTake(long id) {
+        System.out.println("进来了1");
+        List<TakesInfo> takesInfos =takesMapper.getCourseStudent(id);
+        System.out.println(takesInfos);
+        if(takesInfos!=null){
+            System.out.println("进来了2");
+            String result="";
+            for(int i=0;i<takesInfos.size();i++){
+                if(i!=takesInfos.size()-1)
+                    result+=takesInfos.get(i).toString()+";";
+                else
+                    result+=takesInfos.get(i).toString();
+            }
+            System.out.println(result);
+            return result;
+        }
+        return "";
+    }
 
     private boolean isNumeric(String str){
-        Pattern pattern = Pattern.compile("[0-9]*");
+        Pattern pattern = Pattern.compile("[0-9]*\\.?[0-9]+");
         Matcher isNum = pattern.matcher(str);
         if( !isNum.matches() ){
             return false;

@@ -7,152 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65628251-ca4a-45c0-be6b-27ffcedf4ece" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mypack/service/ProScoreRecordService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/ProScoreRecordServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/0.e432675087c66824ed64.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/0.e432675087c66824ed64.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/1.105e1b9eeea4e3322c1e.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/1.105e1b9eeea4e3322c1e.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/11.ce0ed6d0030554a63aff.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/11.ce0ed6d0030554a63aff.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/12.81d2909c5d526e9e1d42.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/12.81d2909c5d526e9e1d42.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/13.f14f048bbcb53e8ba4ba.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/13.f14f048bbcb53e8ba4ba.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/14.230e9039ff33eabd26ab.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/14.230e9039ff33eabd26ab.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/15.75b23aace3dee978a6b2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/15.75b23aace3dee978a6b2.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/16.d0d939371c663144cb56.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/17.f0fabb8ae69a6b93bbe4.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/17.f0fabb8ae69a6b93bbe4.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/18.31dc298b13f6e1653533.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/18.31dc298b13f6e1653533.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/19.1ab51e4a2d0019256476.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/19.1ab51e4a2d0019256476.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/2.a6b74ce15b1035692943.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/2.a6b74ce15b1035692943.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/20.d3f0304f1c3164b184ef.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/20.d3f0304f1c3164b184ef.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/21.07ec5e9650f6e280a85b.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/22.8418e56bf168d3848972.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/22.8418e56bf168d3848972.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/23.c3693dd816c022732d6c.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/23.c3693dd816c022732d6c.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/24.4431dcfae40d94e33b8f.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/24.4431dcfae40d94e33b8f.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/25.aa448ccdc7f23b20e232.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/26.b13c97bbd7c234c2d8ca.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/26.b13c97bbd7c234c2d8ca.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/27.d77cddd1b43e8d499018.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/27.d77cddd1b43e8d499018.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/28.90418accd53e42d6a945.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/28.90418accd53e42d6a945.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/3.1bb3ec815dddae76e878.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/3.1bb3ec815dddae76e878.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/30.f5fe2bfaaf30799483e3.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/31.668be1e5b6cda1f70a74.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/31.668be1e5b6cda1f70a74.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/32.039efb27e71b4dd8feec.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/32.039efb27e71b4dd8feec.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/33.a58c33ccfe6b35d6fd32.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/33.a58c33ccfe6b35d6fd32.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/34.b38773c56ad16fb2b808.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/35.63b5496290ee9e1095f0.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/35.63b5496290ee9e1095f0.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/4.15c8b1c31e984d821014.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/4.15c8b1c31e984d821014.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/5.20fd9903e48f84cd45e6.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/5.20fd9903e48f84cd45e6.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/6.692785a193bb1108d465.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/6.692785a193bb1108d465.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/7.8de9a0c2aa7a68597e8d.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/7.8de9a0c2aa7a68597e8d.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/8.d9165fae9c15e77d41ab.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/8.d9165fae9c15e77d41ab.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/9.12f1341b219c49c3315e.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/9.12f1341b219c49c3315e.js.map" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/education_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/education_main.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mypack/Response/TakesInfo.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/applicationContext.xml" />
       <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/controller/ProfessorController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/controller/ProfessorController.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/CourseMapper.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/CourseMapper.class" />
       <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/TakesMapper.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/TakesMapper.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/pojo/Course.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/pojo/Course.class" />
       <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/index.html" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/index.html" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/index.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/static/js/36.1668477f1b2e5280fd77.js" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/static/js/36.1668477f1b2e5280fd77.js" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/static/js/app.e89b96f358d573340e8c.js" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/static/js/app.e89b96f358d573340e8c.js" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/static/js/vendor.0bbbdc0923db748ac7b3.js" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/static/js/vendor.0bbbdc0923db748ac7b3.js" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/mypack/controller/ProfessorController.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/controller/ProfessorController.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mypack/dao/CourseMapper.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/dao/CourseMapper.class" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/mypack/dao/TakesMapper.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/dao/TakesMapper.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mypack/pojo/Course.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/pojo/Course.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/out/production/resources/applicationContext.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypack/Response/CourseInfo.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/Response/CourseInfo.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypack/Response/ScoreInfo.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/Response/ScoreInfo.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mypack/controller/ProfessorController.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/controller/ProfessorController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypack/dao/CourseMapper.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/dao/CourseMapper.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mypack/dao/TakesMapper.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/dao/TakesMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypack/pojo/Course.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/pojo/Course.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mypack/service/ProScoreRecordService.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/service/ProScoreRecordService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/ProScoreRecordServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/ProScoreRecordServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/12.c23c0e29ca285e77defc.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/12.c23c0e29ca285e77defc.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/13.4e97dbfc3c455e81ec85.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/13.4e97dbfc3c455e81ec85.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/14.f97a078195ac0cce02a4.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/14.f97a078195ac0cce02a4.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/15.066a2428c67aee5616e1.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/15.066a2428c67aee5616e1.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/16.0b41548b038e7383f567.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/16.d0d939371c663144cb56.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/16.0b41548b038e7383f567.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/17.0b6ffae0d7a479574805.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/17.0b6ffae0d7a479574805.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/18.ba577abad2e6b434a5f0.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/18.ba577abad2e6b434a5f0.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/19.244807265461b6d75edb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/19.244807265461b6d75edb.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/2.64c992cb5c6fa07ea8b4.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/2.64c992cb5c6fa07ea8b4.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/20.94829378189ac2a63f4a.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/20.94829378189ac2a63f4a.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/21.fafa01f9a38dbe921ff5.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/21.07ec5e9650f6e280a85b.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/21.fafa01f9a38dbe921ff5.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/22.026fe1467b31383401fe.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/22.026fe1467b31383401fe.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/23.1570025b39063e07fc36.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/23.1570025b39063e07fc36.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/24.89321796240924906503.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/24.89321796240924906503.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/25.59d53eaf68b92f2dbe3f.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/25.aa448ccdc7f23b20e232.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/25.59d53eaf68b92f2dbe3f.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/26.839851b2ee65f4577d70.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/26.839851b2ee65f4577d70.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/27.3cce27e413620ce2f994.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/27.3cce27e413620ce2f994.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/28.6cb55d6a5313d4b1814d.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/28.6cb55d6a5313d4b1814d.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/29.25ec53211d1702a5f811.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/29.25ec53211d1702a5f811.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/30.cb14d584e5ffa6e84344.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/30.f5fe2bfaaf30799483e3.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/30.cb14d584e5ffa6e84344.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/31.74880256c268dbeaa4ae.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/31.74880256c268dbeaa4ae.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/34.37e6b50e84ed4782e333.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/34.37e6b50e84ed4782e333.js.map" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/34.b38773c56ad16fb2b808.js.map" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/35.8957a374106b4e63af18.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/35.8957a374106b4e63af18.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/5.8012f2257ac5c219c051.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/5.8012f2257ac5c219c051.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/6.7605f96135c737d65cdc.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/6.7605f96135c737d65cdc.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/9.6f88034e85d5f7657b23.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/9.6f88034e85d5f7657b23.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/31.668be1e5b6cda1f70a74.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/31.668be1e5b6cda1f70a74.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/34.b38773c56ad16fb2b808.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/34.b38773c56ad16fb2b808.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/35.63b5496290ee9e1095f0.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/35.63b5496290ee9e1095f0.js.map" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -188,13 +60,6 @@
         <item name="education@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="education: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="education@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="education: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="takes: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -234,8 +99,8 @@
       <file leaf-file-name="ProScoreRecordServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/ProScoreRecordServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="968">
-              <caret line="54" column="5" lean-forward="false" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+            <state relative-caret-position="1342">
+              <caret line="73" column="29" lean-forward="false" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -243,11 +108,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="professor" pinned="false" current-in-tab="false">
-        <entry file="das://table:/a9537145/b1e4db03-8b11-4821-9b7f-cb39396b5284/education.professor">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="TakesInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mypack/Response/TakesInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="36" column="105" lean-forward="false" selection-start-line="36" selection-start-column="105" selection-end-line="36" selection-end-column="105" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -261,8 +127,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="takes" pinned="false" current-in-tab="true">
-        <entry file="das://table:/a9537145/b1e4db03-8b11-4821-9b7f-cb39396b5284/education.takes">
+      <file leaf-file-name="professor" pinned="false" current-in-tab="true">
+        <entry file="das://table:/a9537145/b1e4db03-8b11-4821-9b7f-cb39396b5284/education.professor">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -270,8 +136,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="course" pinned="false" current-in-tab="false">
-        <entry file="das://table:/a9537145/b1e4db03-8b11-4821-9b7f-cb39396b5284/education.course">
+      <file leaf-file-name="takes" pinned="false" current-in-tab="false">
+        <entry file="das://table:/a9537145/b1e4db03-8b11-4821-9b7f-cb39396b5284/education.takes">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -282,18 +148,28 @@
       <file leaf-file-name="ProScoreRecordService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mypack/service/ProScoreRecordService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="61" lean-forward="false" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+            <state relative-caret-position="66">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProfessorAccountServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/ProfessorAccountServiceImpl.java">
+      <file leaf-file-name="TakesMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/TakesMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="286">
+              <caret line="18" column="116" lean-forward="false" selection-start-line="18" selection-start-column="116" selection-end-line="18" selection-end-column="116" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeacherInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mypack/Response/TeacherInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -302,28 +178,8 @@
       <file leaf-file-name="ProfessorController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mypack/controller/ProfessorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4708">
-              <caret line="232" column="5" lean-forward="false" selection-start-line="232" selection-start-column="5" selection-end-line="232" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console_1.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b1e4db03-8b11-4821-9b7f-cb39396b5284/console_1.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourseMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/CourseMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="44" column="68" lean-forward="false" selection-start-line="44" selection-start-column="68" selection-end-line="44" selection-end-column="68" />
+            <state relative-caret-position="127">
+              <caret line="250" column="45" lean-forward="false" selection-start-line="250" selection-start-column="21" selection-end-line="250" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -569,7 +425,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/mypack/pojo/SecurityQuestion.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/pojo/Securitystu.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/pojo/Securitypro.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/StuChangePasswordServiceImpl.java" />
@@ -616,10 +471,11 @@
         <option value="$PROJECT_DIR$/src/main/java/mypack/Response/CourseInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/dao/CourseMapper.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b1e4db03-8b11-4821-9b7f-cb39396b5284/console_1.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/mypack/dao/TakesMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/service/ProScoreRecordService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/ProScoreRecordServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/controller/ProfessorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/ProScoreRecordServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mypack/Response/TakesInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mypack/dao/TakesMapper.java" />
       </list>
     </option>
   </component>
@@ -637,10 +493,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="x" value="952" />
+    <option name="width" value="976" />
+    <option name="height" value="1088" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -674,6 +529,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -733,6 +590,15 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mypack" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="education" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Education" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mypack" type="462c0819:PsiDirectoryNode" />
               <item name="Response" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -767,21 +633,11 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="education" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Education" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1005,7 +861,8 @@
       <workItem from="1512837191215" duration="110000" />
       <workItem from="1512838511802" duration="4572000" />
       <workItem from="1512905632355" duration="16634000" />
-      <workItem from="1512989077018" duration="1137000" />
+      <workItem from="1512989077018" duration="18449000" />
+      <workItem from="1513042293010" duration="5226000" />
     </task>
     <task id="LOCAL-00001" summary="20171201&#10;密码修改">
       <created>1512138208025</created>
@@ -1035,11 +892,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512648911067</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="20171211&#10;a">
+      <created>1512991397053</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1512991397053</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167711000" />
+    <option name="totallyTimeSpent" value="190249000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1062,7 +926,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18615879" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24944568" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39875388" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1071,13 +935,13 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42071196" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42071196" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5447681" sideWeight="0.5477997" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946351" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3556867" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15772532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15742794" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1086,7 +950,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.50912017" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45091695" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45038167" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1101,7 +965,8 @@
     <MESSAGE value="20171201&#10;密码修改&#10;+&#10;tea密保修改" />
     <MESSAGE value="20171204&#10;查询通知" />
     <MESSAGE value="20171206&#10;查成绩" />
-    <option name="LAST_COMMIT_MESSAGE" value="20171206&#10;查成绩" />
+    <MESSAGE value="20171211&#10;a" />
+    <option name="LAST_COMMIT_MESSAGE" value="20171211&#10;a" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1112,19 +977,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://table:/d4a1dab1/1076f3b8-2a2b-4ca0-9cf2-fc0c4dc4f6e0/education.course" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/StuClassTableQueryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1076f3b8-2a2b-4ca0-9cf2-fc0c4dc4f6e0/console.sql" />
-    <entry file="das://table:/d4a1dab1/1076f3b8-2a2b-4ca0-9cf2-fc0c4dc4f6e0/education.student" />
     <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/ProChangePasswordServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -1212,6 +1064,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1253,13 +1106,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/a9537145/b1e4db03-8b11-4821-9b7f-cb39396b5284/education.department">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1285,6 +1131,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#490#491#0" expanded="false" />
+            <element signature="e#522#523#0" expanded="false" />
+            <element signature="e#569#570#0" expanded="false" />
+            <element signature="e#611#612#0" expanded="false" />
+            <element signature="e#643#644#0" expanded="false" />
+            <element signature="e#674#675#0" expanded="false" />
+            <element signature="e#719#720#0" expanded="false" />
+            <element signature="e#759#760#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1292,6 +1148,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="28" column="270" lean-forward="false" selection-start-line="28" selection-start-column="270" selection-end-line="28" selection-end-column="270" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1299,13 +1156,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/Response/TeacherInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1313,6 +1164,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1320,6 +1172,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1327,6 +1180,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1334,6 +1188,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="213" column="9" lean-forward="true" selection-start-line="200" selection-start-column="7" selection-end-line="213" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1341,6 +1196,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-308">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1364,13 +1220,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
           <caret line="69" column="287" lean-forward="false" selection-start-line="69" selection-start-column="287" selection-end-line="69" selection-end-column="287" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/TakesMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1383,11 +1232,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b1e4db03-8b11-4821-9b7f-cb39396b5284/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="71" />
-          <folding />
+    <entry file="das://table:/a9537145/b1e4db03-8b11-4821-9b7f-cb39396b5284/education.course">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1399,6 +1247,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/controller/TakesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b1e4db03-8b11-4821-9b7f-cb39396b5284/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/service/StuFileInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/service/ProScoreRecordService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/ProScoreRecordServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1342">
+          <caret line="73" column="29" lean-forward="false" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/Response/TeacherInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="das://table:/a9537145/b1e4db03-8b11-4821-9b7f-cb39396b5284/education.student">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1406,47 +1303,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/service/ProScoreRecordService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/pojo/Takes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="61" lean-forward="false" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/ProScoreRecordServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/TakesMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="54" column="5" lean-forward="false" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="286">
+          <caret line="18" column="116" lean-forward="false" selection-start-line="18" selection-start-column="116" selection-end-line="18" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/Response/TakesInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="36" column="105" lean-forward="false" selection-start-line="36" selection-start-column="105" selection-end-line="36" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a9537145/b1e4db03-8b11-4821-9b7f-cb39396b5284/education.takes">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mypack/controller/ProfessorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4708">
-          <caret line="232" column="5" lean-forward="false" selection-start-line="232" selection-start-column="5" selection-end-line="232" selection-end-column="5" />
+        <state relative-caret-position="127">
+          <caret line="250" column="45" lean-forward="false" selection-start-line="250" selection-start-column="21" selection-end-line="250" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="55" lean-forward="false" selection-start-line="0" selection-start-column="55" selection-end-line="0" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="das://table:/a9537145/b1e4db03-8b11-4821-9b7f-cb39396b5284/education.professor">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/a9537145/b1e4db03-8b11-4821-9b7f-cb39396b5284/education.course">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/a9537145/b1e4db03-8b11-4821-9b7f-cb39396b5284/education.takes">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />

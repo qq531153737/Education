@@ -248,5 +248,30 @@ public class ProfessorController {
         System.out.println("44");
         return data;
     }
+    @RequestMapping("/teacher/getStudentTakes")
+    @ResponseBody
+    public ResponsdString getStudentTakes(HttpServletRequest request){
+        Long id=Long.parseLong(request.getParameter("couID"));
+
+        System.out.println("id1:"+id);
+        String result=proScoreRecordServiceImpl.studentTake(id);
+        System.out.println("id2:"+id);
+        ResponsdString responsdString=new ResponsdString(result);
+        return responsdString;
+    }
+
+    @RequestMapping("/teacher/batchregister")
+    @ResponseBody
+    public Data batchingRegister(HttpServletRequest request){
+        String []jsonArr=request.getParameterValues("scoreBat[]");
+        System.out.println(jsonArr.length);
+        System.out.println(jsonArr[0]);
+        Data data=new Data();
+        if(proScoreRecordServiceImpl.batchScoreRegister(jsonArr))
+            data.setData(1);
+        else
+            data.setData(0);
+        return data;
+    }
 }
 

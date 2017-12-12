@@ -1,6 +1,7 @@
 package mypack.dao;
 
 import mypack.Response.ScoreInfo;
+import mypack.Response.TakesInfo;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 
@@ -15,5 +16,9 @@ public interface TakesMapper {
     @Select("update takes set grade=#{grade} where couID=#{couID} and stuID=#{stuID}")
     void updateSingleScore(@Param("couID")long couID,@Param("stuID")long stuID,@Param("grade")float grade);
 
+    @Select({"<script>select course.name as couName,student.id as stuID,student.name as stuName,takes.grade as grade \n" +
+            "from takes,course,student\n" +
+            "where takes.stuID=student.id and course.id=takes.couID <when test='id!=null'>and takes.couID=#{id} </when></script>"})
+    ArrayList<TakesInfo> getCourseStudent(@Param("id")long id);
 
 }
