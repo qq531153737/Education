@@ -4,10 +4,13 @@ import mypack.Response.SelectCourseInfo;
 import mypack.Response.StudentDepartResponse;
 import mypack.Response.StudentInfo;
 import mypack.pojo.Securitystu;
+import mypack.pojo.Selects;
 import mypack.pojo.Student;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.Update;
 
+import java.sql.Date;
 import java.util.ArrayList;
 
 public interface StudentMapper {
@@ -18,10 +21,17 @@ public interface StudentMapper {
             "select student.*,major.name as majName,department.name as depName,clazz.name as claName from student,major,department,clazz where student.majID=major.id and student.claID =clazz.id and major.depID=department.id and student.id=#{id}")
     StudentInfo getStudentInfo(@Param("id") long id);
 
-    @Select("UPDATE student set areaInterest=#{areaInterest},nationality=#{nationality},nativePlace=#{nativePlace},politicalStatus=#{politicalStatus},sex=#{sex},title=#{title} where student.id=#{id}")
-    void setStudentInfo(@Param("id") long id, @Param("nationality") String nationality, @Param("nativePlace") String nativePlace,
-                        @Param("politicalStatus") String politicalStatus, @Param("sex") String sex,
-                        @Param("areaInterest") String areaInterest, @Param("title") String title
+    @Update("UPDATE student\n" +
+            "set areaInterest=#{areaInterest},nationality=#{nationality},\n" +
+            "  nativePlace=#{nativePlace},politicalStatus=#{politicalStatus},\n" +
+            "  sex=#{sex},title=#{title},healthState=#{healthState},timeEnrollment=#{enrollTime},\n" +
+            "  timeGraduation=#{graduateTime},birthday=#{birthday}\n" +
+            "where student.id=#{id}")
+    boolean setStudentInfo(@Param("id") long id, @Param("nationality") String nationality, @Param("nativePlace") String nativePlace,
+                        @Param("politicalStatus") String politicalStatus, @Param("sex") int sex,
+                        @Param("areaInterest") String areaInterest, @Param("title") String title,
+                        @Param("healthState")String health,@Param("enrollTime")Date enrollTime,
+                        @Param("graduateTime")Date graduateTime,@Param("birthday")Date birthday
     );
 
     @Select("select * from student where id=#{id} and password=#{password}")
@@ -50,6 +60,15 @@ public interface StudentMapper {
 
 
 
-    @Select("")
-    ArrayList<SelectCourseInfo> getSelectClass(@Param("id")int id);
+    @Select("select course.*,timeslot.startWeek,timeslot.endWeek,professor.name as teaName,department.name as depName\n" +
+            "from course,timeslot,professor,department\n" +
+            "WHERE course.timeSlotID=timeslot.id and course.depID=department.id and course.proID=professor.id and course.opening=1 and course.type=#{type} and course.depID=#{id}")
+    ArrayList<SelectCourseInfo> getSelectScourse(@Param("id")int id,@Param("type")int type);
+
+    @Select({"<script>select couId,stuId\n" +
+            "from selects\n" +
+            "where selects.couId=#{couId} and selects.stuId=#{stuId} <when test='select!=-1'>and selects.selected=#{select}</when></script>"})
+    Selects checkSelectOrNot(@Param("couId")long id,@Param("stuId")long stuId,@Param("select")int select);
+
+
 }
