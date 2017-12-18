@@ -16,11 +16,14 @@ public class StudentInfo extends Student {
 
     }
 
-    public StudentInfo(long id, String password, String name, Date timeEnrollment, Date timeGraduation, String title, int sex, Date birthday, String nationality, String areaInterest, String healthState, String nativePlace, String politicalStatus, int majId, long claId, String majName, String depName, String claName) {
-        super(id, password, name, timeEnrollment, timeGraduation, title, sex, birthday, nationality, areaInterest, healthState, nativePlace, politicalStatus, majId, claId);
+    public StudentInfo(long id, String password, String name, Date timeEnrollment, Date timeGraduation, String title, int sex, Date birthday, int year, String nationality, String areaInterest, String healthState, String nativePlace, String politicalStatus, int majId, long claId, String majName, String depName, String claName, String stringtimeEnrollment, String stringtimeGraducation, String stringbirthDay) {
+        super(id, password, name, timeEnrollment, timeGraduation, title, sex, birthday, year, nationality, areaInterest, healthState, nativePlace, politicalStatus, majId, claId);
         this.majName = majName;
         this.depName = depName;
         this.claName = claName;
+        this.stringtimeEnrollment = stringtimeEnrollment;
+        this.stringtimeGraducation = stringtimeGraducation;
+        this.stringbirthDay = stringbirthDay;
     }
 
     public String getStringtimeEnrollment() {
@@ -69,5 +72,11 @@ public class StudentInfo extends Student {
 
     public void setClaName(String claName) {
         this.claName = claName;
+    }
+
+    @Override
+    public String toString() {
+        String response="year:"+getYear()+",college:"+getDepName()+",class:"+getClaName()+",stuId:"+getId()+",name:"+getName();
+        return response;
     }
 }

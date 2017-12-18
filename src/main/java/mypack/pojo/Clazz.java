@@ -8,15 +8,26 @@ public class Clazz implements Serializable {
     private int quantity;
     private int majID;
     private Long proId;
+    private int year;
+
     public Clazz() {
     }
 
-    public Clazz(long id, String name, int quantity, int majID, Long proId) {
+    public Clazz(long id, String name, int quantity, int majID, Long proId, int year) {
         this.id = id;
         this.name = name;
         this.quantity = quantity;
         this.majID = majID;
         this.proId = proId;
+        this.year = year;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
     }
 
     public Long getProId() {
@@ -56,5 +67,11 @@ public class Clazz implements Serializable {
 
     public void setMajID(int majID) {
         this.majID = majID;
+    }
+
+    @Override
+    public String toString() {
+
+        return "id:"+getId()+",name:"+getName();
     }
 }

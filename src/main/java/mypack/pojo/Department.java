@@ -7,16 +7,26 @@ public class Department implements Serializable {
     private String name;
     private String building;
     private String contactInformation;
+    private int newProfessor;
 
     public Department() {
 
     }
 
-    public Department(int id, String name, String building, String contactInformation) {
+    public Department(int id, String name, String building, String contactInformation, int newProfessor) {
         this.id = id;
         this.name = name;
         this.building = building;
         this.contactInformation = contactInformation;
+        this.newProfessor = newProfessor;
+    }
+
+    public int getNewProfessor() {
+        return newProfessor;
+    }
+
+    public void setNewProfessor(int newProfessor) {
+        this.newProfessor = newProfessor;
     }
 
     public int getId() {

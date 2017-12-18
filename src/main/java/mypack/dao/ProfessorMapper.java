@@ -1,17 +1,25 @@
 package mypack.dao;
 
+import mypack.Response.ProfessorResponse;
 import mypack.Response.TeacherInfo;
 import mypack.pojo.Professor;
 import mypack.pojo.Securitypro;
+import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 
 import java.sql.Date;
+import java.util.ArrayList;
 
 public interface ProfessorMapper {
     @Select("select * from professor where id=#{id} and password=#{password}")
     Professor findWithIdAndPassword(@Param("id") long id, @Param("password") String password);
+
+    @Select("select professor.*, department.name as depName\n" +
+            "from professor, department\n" +
+            "where professor.depID = department.id and department.name = #{depName}")
+    ArrayList<ProfessorResponse> queryProfessor(@Param("depName")String depName);
 
     @Select("SELECT professor.*,department.name as depName from professor,department WHERE professor.depID=department.id and professor.id=#{id}")
     TeacherInfo getProfessorInfo(@Param("id") long id);
@@ -42,4 +50,8 @@ public interface ProfessorMapper {
 
     @Select("select * from securitypro where proID=#{id}")
     Securitypro checkAnswer(@Param("id")long id);
+
+    @Insert("insert into professor(id, password, name, depID, year) " +
+            "values (#{id},123456,#{name},#{depID},#{year})")
+    boolean addProfessor(@Param("id")long id, @Param("name")String name, @Param("depID")int depID, @Param("year")int year);
 }

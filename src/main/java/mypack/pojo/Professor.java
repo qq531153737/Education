@@ -1,7 +1,7 @@
 package mypack.pojo;
 
 import java.io.Serializable;
-import java.util.Date;
+import java.sql.Date;
 
 public class Professor implements Serializable {
     private long id;
@@ -142,4 +142,5 @@ public class Professor implements Serializable {
     public void setDepId(int depId) {
         this.depId = depId;
     }
+
 }

@@ -12,6 +12,7 @@ public class Student implements Serializable {
     private String title;
     private  int sex;
     private Date birthday;
+    private int year;
     private String nationality;
     private String areaInterest;
     private String healthState;
@@ -25,10 +26,7 @@ public class Student implements Serializable {
     public Student() {
     }
 
-
-
-    public Student(long id, String password, String name, Date timeEnrollment, Date timeGraduation, String title, int sex, Date birthday, String nationality, String areaInterest, String healthState, String nativePlace, String politicalStatus, int majId, long claId) {
-
+    public Student(long id, String password, String name, Date timeEnrollment, Date timeGraduation, String title, int sex, Date birthday, int year, String nationality, String areaInterest, String healthState, String nativePlace, String politicalStatus, int majId, long claId) {
         this.id = id;
         this.password = password;
         this.name = name;
@@ -37,6 +35,7 @@ public class Student implements Serializable {
         this.title = title;
         this.sex = sex;
         this.birthday = birthday;
+        this.year = year;
         this.nationality = nationality;
         this.areaInterest = areaInterest;
         this.healthState = healthState;
@@ -44,8 +43,14 @@ public class Student implements Serializable {
         this.politicalStatus = politicalStatus;
         this.majId = majId;
         this.claId = claId;
+    }
 
+    public int getYear() {
+        return year;
+    }
 
+    public void setYear(int year) {
+        this.year = year;
     }
 
     public long getId() {
