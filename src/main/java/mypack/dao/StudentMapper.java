@@ -6,10 +6,7 @@ import mypack.Response.StudentInfo;
 import mypack.pojo.Securitystu;
 import mypack.pojo.Selects;
 import mypack.pojo.Student;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Param;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.annotations.Update;
+import org.apache.ibatis.annotations.*;
 
 import java.sql.Date;
 import java.util.ArrayList;
@@ -18,11 +15,26 @@ public interface StudentMapper {
     @Select("select * from student where id=#{id} and password=#{password}")
     Student findWithIdAndPassword(@Param("id") long id, @Param("password") String password);
 
+    @Select("select student.*,major.name as majName,department.name as depName,clazz.name as claName\n" +
+            "from student, major, department, clazz, takes\n" +
+            "where takes.stuID=student.id and student.majID=major.id and major.depID=department.id and student.claID=clazz.id and takes.couID=#{couID}\n")
+    ArrayList<StudentInfo> queryStudentOfCourse(@Param("couID") long couID);
+
+    @Select("select student.*,major.name as majName,department.name as depName,clazz.name as claName\n" +
+            "from student, major, department, clazz, selects\n" +
+            "where selects.stuID=student.id and student.majID=major.id and major.depID=department.id and student.claID=clazz.id and selects.couID=#{couID} and selects.selected=1\n")
+    ArrayList<StudentInfo> queryStudentOfCourse2(@Param("couID") long couID);
+
     @Select("\n" +
             "select student.*,major.name as majName,department.name as depName,clazz.name as claName\n" +
             "from student, major, department,clazz\n" +
             "where student.majID=major.id and major.depID=department.id and student.claID=clazz.id and student.claID=#{claID}")
     ArrayList<StudentInfo> findWithClaID(@Param("claID") long claID);
+
+    @Select("select id\n" +
+            "from student\n" +
+            "where claID = #{claID}\n")
+    ArrayList<Long> findWithClaIDForID(@Param("claID")long claID);
 
     @Select("\n" +
             "select student.*,major.name as majName,department.name as depName,clazz.name as claName from student,major,department,clazz where student.majID=major.id and student.claID =clazz.id and major.depID=department.id and student.id=#{id}")
@@ -78,4 +90,7 @@ public interface StudentMapper {
 
     @Insert("insert into student(id, password, name, majID, claID, year) values (#{id},123456,#{name},#{majID},#{claID},#{year})")
     boolean addStudent(@Param("id") long id, @Param("name") String name, @Param("majID") int majID, @Param("claID") long claID, @Param("year") int year);
+
+    @Delete("delete from student where id = #{id}")
+    boolean deleteStudent(@Param("id") long id);
 }

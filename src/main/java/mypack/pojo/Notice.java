@@ -8,25 +8,19 @@ public class Notice implements Serializable {
     private String noticeContent;
     private Date time;
     private int admId;
-    private int readed;
+
     public Notice() {
     }
 
-    public int getReaded() {
-        return readed;
-    }
 
-    public void setReaded(int readed) {
-        this.readed = readed;
-    }
 
-    public Notice(long id, String noticeContent, Date time, int admId,int readed) {
+    public Notice(long id, String noticeContent, Date time, int admId) {
 
         this.id = id;
         this.noticeContent = noticeContent;
         this.time = time;
         this.admId = admId;
-        this.readed=readed;
+
     }
 
     public long getId() {

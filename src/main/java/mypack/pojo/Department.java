@@ -4,21 +4,40 @@ import java.io.Serializable;
 
 public class Department implements Serializable {
     private int id;
+    private int newProfessor;
+    private int newCourse;
     private String name;
     private String building;
     private String contactInformation;
-    private int newProfessor;
 
     public Department() {
 
     }
 
-    public Department(int id, String name, String building, String contactInformation, int newProfessor) {
+    public Department(int id, int newProfessor, int newCourse, String name, String building, String contactInformation) {
         this.id = id;
+        this.newProfessor = newProfessor;
+        this.newCourse = newCourse;
         this.name = name;
         this.building = building;
         this.contactInformation = contactInformation;
-        this.newProfessor = newProfessor;
+    }
+
+    public int getNewCourse() {
+        return newCourse;
+    }
+
+    public void setNewCourse(int newCourse) {
+        this.newCourse = newCourse;
+    }
+
+    public int getId() {
+
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public int getNewProfessor() {
@@ -27,14 +46,6 @@ public class Department implements Serializable {
 
     public void setNewProfessor(int newProfessor) {
         this.newProfessor = newProfessor;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getName() {

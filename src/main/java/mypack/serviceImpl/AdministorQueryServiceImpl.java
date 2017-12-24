@@ -1,11 +1,10 @@
 package mypack.serviceImpl;
 
+import mypack.Response.ClazzInfo;
+import mypack.Response.CourseInfo;
 import mypack.Response.ProfessorResponse;
 import mypack.Response.StudentInfo;
-import mypack.dao.ClazzMapper;
-import mypack.dao.DepartmentMapper;
-import mypack.dao.ProfessorMapper;
-import mypack.dao.StudentMapper;
+import mypack.dao.*;
 import mypack.pojo.Clazz;
 import mypack.pojo.Department;
 import mypack.pojo.Professor;
@@ -27,6 +26,11 @@ public class AdministorQueryServiceImpl implements AdministorQueryService {
     private ClazzMapper clazzMapper;
     @Autowired
     private DepartmentMapper departmentMapper;
+    @Autowired
+    private CourseMapper courseMapper;
+    @Autowired
+    private TakesMapper takesMapper;
+
 
     @Override
     public String queryStudent(long claID) {
@@ -68,7 +72,7 @@ public class AdministorQueryServiceImpl implements AdministorQueryService {
         System.out.println(department.getId());
         System.out.println(year);
         int depId = department.getId();
-        ArrayList<Clazz> clazzArrayList = clazzMapper.queryClazz(depId, year);
+        ArrayList<ClazzInfo> clazzArrayList = clazzMapper.queryClazz(depId, year);
         System.out.println(clazzArrayList);
         String result="";
         for(int i=0;i<clazzArrayList.size();i++){
@@ -78,6 +82,76 @@ public class AdministorQueryServiceImpl implements AdministorQueryService {
                 result+=clazzArrayList.get(i).toString()+";";
             }
         }
+        return result;
+    }
+
+    @Override
+    public String queryCourse(String year, int term, String depName,int type) {
+        Department department = departmentMapper.findWithName(depName);
+        year = year.substring(0,4) + year.substring(5,9);
+        int depId = department.getId();
+        ArrayList<CourseInfo> courseInfoArrayList = courseMapper.queryCourse(depId, term, year,type);
+//        System.out.println(courseInfoArrayList);
+        String result="";
+        for(int i=0;i<courseInfoArrayList.size();i++){
+            if(i==courseInfoArrayList.size()-1)
+                result+=courseInfoArrayList.get(i).toString2();
+            else{
+                result+=courseInfoArrayList.get(i).toString2()+";";
+            }
+        }
+        System.out.println(result);
+        return result;
+    }
+
+    @Override
+    public String queryStudentOfCourse(long couID) {
+        System.out.println(couID+couID+couID);
+        ArrayList<StudentInfo> studentInfoArrayList = studentMapper.queryStudentOfCourse(couID);
+        System.out.println(studentInfoArrayList);
+        String result="";
+        for(int i=0;i<studentInfoArrayList.size();i++){
+            if(i==studentInfoArrayList.size()-1)
+                result+=studentInfoArrayList.get(i).toString();
+            else{
+                result+=studentInfoArrayList.get(i).toString()+";";
+            }
+        }
+        System.out.println(result);
+        return result;
+    }
+
+    @Override
+    public String queryStudentOfCourse2(long couID) {
+        System.out.println(couID+couID);
+        ArrayList<StudentInfo> studentInfoArrayList = studentMapper.queryStudentOfCourse2(couID);
+        System.out.println(studentInfoArrayList);
+        String result="";
+        for(int i=0;i<studentInfoArrayList.size();i++){
+            if(i==studentInfoArrayList.size()-1)
+                result+=studentInfoArrayList.get(i).toString();
+            else{
+                result+=studentInfoArrayList.get(i).toString()+";";
+            }
+        }
+        System.out.println(result);
+        return result;
+    }
+
+    @Override
+    public String queryClazzOfCourse(long couID) {
+        System.out.println(couID+couID+couID);
+        ArrayList<ClazzInfo> clazzInfoArrayList = clazzMapper.queryClazzOfCourse(couID);
+        System.out.println(clazzInfoArrayList);
+        String result="";
+        for(int i=0;i<clazzInfoArrayList.size();i++){
+            if(i==clazzInfoArrayList.size()-1)
+                result+=clazzInfoArrayList.get(i).toString2();
+            else{
+                result+=clazzInfoArrayList.get(i).toString2()+";";
+            }
+        }
+        System.out.println(result);
         return result;
     }
 }

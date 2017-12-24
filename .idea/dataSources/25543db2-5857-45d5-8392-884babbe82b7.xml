@@ -1006,24 +1006,29 @@
       <DataType>bigint(15)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="253" parent="230" name="majID">
+    <column id="253" parent="230" name="year">
+      <Position>6</Position>
+      <DataType>int(4)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="254" parent="230" name="majID">
       <ColNames>majID</ColNames>
     </index>
-    <index id="254" parent="230" name="proID">
+    <index id="255" parent="230" name="proID">
       <ColNames>proID</ColNames>
     </index>
-    <key id="255" parent="230" name="PRIMARY">
+    <key id="256" parent="230" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="256" parent="230" name="clazz_ibfk_1">
+    <foreign-key id="257" parent="230" name="clazz_ibfk_1">
       <ColNames>majID</ColNames>
       <RefSchemaName>education</RefSchemaName>
       <RefTableName>major</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="257" parent="230" name="clazz_ibfk_2">
+    <foreign-key id="258" parent="230" name="clazz_ibfk_2">
       <ColNames>proID</ColNames>
       <RefSchemaName>education</RefSchemaName>
       <RefTableName>professor</RefTableName>
@@ -1031,253 +1036,272 @@
       <OnUpdate>cascade</OnUpdate>
       <OnDelete>cascade</OnDelete>
     </foreign-key>
-    <column id="258" parent="231" name="id">
+    <column id="259" parent="231" name="id">
       <Position>1</Position>
       <DataType>bigint(15)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="259" parent="231" name="name">
+    <column id="260" parent="231" name="name">
       <Position>2</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="260" parent="231" name="type">
+    <column id="261" parent="231" name="type">
       <Position>3</Position>
       <DataType>int(2)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="261" parent="231" name="credict">
+    <column id="262" parent="231" name="credict">
       <Position>4</Position>
       <DataType>int(4)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="262" parent="231" name="totalTime">
+    <column id="263" parent="231" name="totalTime">
       <Position>5</Position>
       <DataType>int(3)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="263" parent="231" name="learnTerm">
+    <column id="264" parent="231" name="learnTerm">
       <Position>6</Position>
       <DataType>int(2)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="264" parent="231" name="learnYear">
+    <column id="265" parent="231" name="learnYear">
       <Position>7</Position>
       <DataType>varchar(10)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="265" parent="231" name="classroom">
+    <column id="266" parent="231" name="classroom">
       <Position>8</Position>
       <DataType>char(10)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="266" parent="231" name="depID">
+    <column id="267" parent="231" name="depID">
       <Position>9</Position>
       <DataType>int(3)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="267" parent="231" name="timeSlotID">
+    <column id="268" parent="231" name="timeSlotID">
       <Position>10</Position>
       <DataType>int(10)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="268" parent="231" name="proID">
+    <column id="269" parent="231" name="proID">
       <Position>11</Position>
       <DataType>bigint(15)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="269" parent="231" name="admID">
+    <column id="270" parent="231" name="admID">
       <Position>12</Position>
       <DataType>int(10)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="270" parent="231" name="stuNumber">
+    <column id="271" parent="231" name="stuNumber">
       <Position>13</Position>
       <DataType>int(3)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="271" parent="231" name="quantity">
+    <column id="272" parent="231" name="quantity">
       <Position>14</Position>
       <DataType>int(3)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="272" parent="231" name="opening">
+    <column id="273" parent="231" name="opening">
       <Position>15</Position>
       <DataType>int(1)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="273" parent="231" name="depID">
+    <index id="274" parent="231" name="depID">
       <ColNames>depID</ColNames>
     </index>
-    <index id="274" parent="231" name="timeSlotID">
+    <index id="275" parent="231" name="timeSlotID">
       <ColNames>timeSlotID</ColNames>
     </index>
-    <index id="275" parent="231" name="proID">
+    <index id="276" parent="231" name="proID">
       <ColNames>proID</ColNames>
     </index>
-    <index id="276" parent="231" name="admID">
+    <index id="277" parent="231" name="admID">
       <ColNames>admID</ColNames>
     </index>
-    <key id="277" parent="231" name="PRIMARY">
+    <key id="278" parent="231" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="278" parent="231" name="course_ibfk_1">
+    <foreign-key id="279" parent="231" name="course_ibfk_1">
       <ColNames>depID</ColNames>
       <RefSchemaName>education</RefSchemaName>
       <RefTableName>department</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="279" parent="231" name="course_ibfk_2">
+    <foreign-key id="280" parent="231" name="course_ibfk_2">
       <ColNames>timeSlotID</ColNames>
       <RefSchemaName>education</RefSchemaName>
       <RefTableName>timeslot</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="280" parent="231" name="course_ibfk_3">
+    <foreign-key id="281" parent="231" name="course_ibfk_3">
       <ColNames>proID</ColNames>
       <RefSchemaName>education</RefSchemaName>
       <RefTableName>professor</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="281" parent="231" name="course_ibfk_4">
+    <foreign-key id="282" parent="231" name="course_ibfk_4">
       <ColNames>admID</ColNames>
       <RefSchemaName>education</RefSchemaName>
       <RefTableName>administor</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="282" parent="232" name="id">
+    <column id="283" parent="232" name="id">
       <Position>1</Position>
       <DataType>int(3)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="283" parent="232" name="name">
+    <column id="284" parent="232" name="name">
       <Position>2</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="284" parent="232" name="building">
+    <column id="285" parent="232" name="building">
       <Position>3</Position>
       <DataType>char(10)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="285" parent="232" name="contactInfomation">
+    <column id="286" parent="232" name="contactInfomation">
       <Position>4</Position>
       <DataType>char(15)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="286" parent="232" name="PRIMARY">
+    <column id="287" parent="232" name="newProfessor">
+      <Position>5</Position>
+      <DataType>int(5)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="288" parent="232" name="newCourse">
+      <Position>6</Position>
+      <DataType>int(5)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="289" parent="232" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="287" parent="233" name="id">
+    <column id="290" parent="233" name="id">
       <Position>1</Position>
       <DataType>int(5)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="288" parent="233" name="name">
+    <column id="291" parent="233" name="name">
       <Position>2</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="289" parent="233" name="depID">
+    <column id="292" parent="233" name="depID">
       <Position>3</Position>
       <DataType>int(3)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="290" parent="233" name="depID">
+    <column id="293" parent="233" name="newStudent">
+      <Position>4</Position>
+      <DataType>int(5)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="294" parent="233" name="newClazz">
+      <Position>5</Position>
+      <DataType>int(3)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="295" parent="233" name="depID">
       <ColNames>depID</ColNames>
     </index>
-    <key id="291" parent="233" name="PRIMARY">
+    <key id="296" parent="233" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="292" parent="233" name="major_ibfk_1">
+    <foreign-key id="297" parent="233" name="major_ibfk_1">
       <ColNames>depID</ColNames>
       <RefSchemaName>education</RefSchemaName>
       <RefTableName>department</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="293" parent="234" name="id">
+    <column id="298" parent="234" name="id">
       <Position>1</Position>
       <DataType>bigint(15)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="294" parent="234" name="noticeContent">
+    <column id="299" parent="234" name="noticeContent">
       <Position>2</Position>
       <DataType>text|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="295" parent="234" name="time">
+    <column id="300" parent="234" name="time">
       <Position>3</Position>
       <DataType>date|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="296" parent="234" name="admID">
+    <column id="301" parent="234" name="admID">
       <Position>4</Position>
       <DataType>int(10)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="297" parent="234" name="readed">
-      <Position>5</Position>
-      <DataType>int(1)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <index id="298" parent="234" name="admID">
+    <index id="302" parent="234" name="admID">
       <ColNames>admID</ColNames>
     </index>
-    <key id="299" parent="234" name="PRIMARY">
+    <key id="303" parent="234" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="300" parent="234" name="notice_ibfk_1">
+    <foreign-key id="304" parent="234" name="notice_ibfk_1">
       <ColNames>admID</ColNames>
       <RefSchemaName>education</RefSchemaName>
       <RefTableName>administor</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="301" parent="235" name="notID">
+    <column id="305" parent="235" name="notID">
       <Position>1</Position>
       <DataType>bigint(15)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="302" parent="235" name="proID">
+    <column id="306" parent="235" name="proID">
       <Position>2</Position>
       <DataType>bigint(15)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="303" parent="235" name="noticepro_ibfk_2">
+    <column id="307" parent="235" name="readed">
+      <Position>3</Position>
+      <DataType>int(1)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="308" parent="235" name="noticepro_ibfk_2">
       <ColNames>proID</ColNames>
     </index>
-    <key id="304" parent="235" name="PRIMARY">
+    <key id="309" parent="235" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>notID
 proID</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="305" parent="235" name="noticepro_ibfk_1">
+    <foreign-key id="310" parent="235" name="noticepro_ibfk_1">
       <ColNames>notID</ColNames>
       <RefSchemaName>education</RefSchemaName>
       <RefTableName>notice</RefTableName>
@@ -1285,7 +1309,7 @@ proID</ColNames>
       <OnUpdate>cascade</OnUpdate>
       <OnDelete>cascade</OnDelete>
     </foreign-key>
-    <foreign-key id="306" parent="235" name="noticepro_ibfk_2">
+    <foreign-key id="311" parent="235" name="noticepro_ibfk_2">
       <ColNames>proID</ColNames>
       <RefSchemaName>education</RefSchemaName>
       <RefTableName>professor</RefTableName>
@@ -1293,28 +1317,33 @@ proID</ColNames>
       <OnUpdate>cascade</OnUpdate>
       <OnDelete>cascade</OnDelete>
     </foreign-key>
-    <column id="307" parent="236" name="notID">
+    <column id="312" parent="236" name="readed">
       <Position>1</Position>
-      <DataType>bigint(15)|0</DataType>
-      <NotNull>1</NotNull>
+      <DataType>int(1)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="308" parent="236" name="stuID">
+    <column id="313" parent="236" name="notID">
       <Position>2</Position>
       <DataType>bigint(15)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="309" parent="236" name="noticestu_ibfk_2">
+    <column id="314" parent="236" name="stuID">
+      <Position>3</Position>
+      <DataType>bigint(15)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="315" parent="236" name="noticestu_ibfk_2">
       <ColNames>stuID</ColNames>
     </index>
-    <key id="310" parent="236" name="PRIMARY">
+    <key id="316" parent="236" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>notID
 stuID</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="311" parent="236" name="noticestu_ibfk_1">
+    <foreign-key id="317" parent="236" name="noticestu_ibfk_1">
       <ColNames>notID</ColNames>
       <RefSchemaName>education</RefSchemaName>
       <RefTableName>notice</RefTableName>
@@ -1322,7 +1351,7 @@ stuID</ColNames>
       <OnUpdate>cascade</OnUpdate>
       <OnDelete>cascade</OnDelete>
     </foreign-key>
-    <foreign-key id="312" parent="236" name="noticestu_ibfk_2">
+    <foreign-key id="318" parent="236" name="noticestu_ibfk_2">
       <ColNames>stuID</ColNames>
       <RefSchemaName>education</RefSchemaName>
       <RefTableName>student</RefTableName>
@@ -1330,437 +1359,447 @@ stuID</ColNames>
       <OnUpdate>cascade</OnUpdate>
       <OnDelete>cascade</OnDelete>
     </foreign-key>
-    <column id="313" parent="237" name="id">
+    <column id="319" parent="237" name="id">
       <Position>1</Position>
       <DataType>bigint(15)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="314" parent="237" name="password">
+    <column id="320" parent="237" name="password">
       <Position>2</Position>
       <DataType>char(15)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="315" parent="237" name="name">
+    <column id="321" parent="237" name="name">
       <Position>3</Position>
       <DataType>char(15)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="316" parent="237" name="teachingAge">
+    <column id="322" parent="237" name="teachingAge">
       <Position>4</Position>
       <DataType>int(3)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="317" parent="237" name="title">
+    <column id="323" parent="237" name="title">
       <Position>5</Position>
       <DataType>char(10)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="318" parent="237" name="educationBackground">
+    <column id="324" parent="237" name="educationBackground">
       <Position>6</Position>
       <DataType>char(20)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="319" parent="237" name="birthday">
+    <column id="325" parent="237" name="birthday">
       <Position>7</Position>
       <DataType>date|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="320" parent="237" name="nationality">
+    <column id="326" parent="237" name="nationality">
       <Position>8</Position>
       <DataType>char(10)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="321" parent="237" name="areaInterest">
+    <column id="327" parent="237" name="areaInterest">
       <Position>9</Position>
       <DataType>char(10)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="322" parent="237" name="sex">
+    <column id="328" parent="237" name="sex">
       <Position>10</Position>
-      <DataType>char(3)|0</DataType>
+      <DataType>int(1)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="323" parent="237" name="politicalStatus">
+    <column id="329" parent="237" name="politicalStatus">
       <Position>11</Position>
       <DataType>char(10)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="324" parent="237" name="contactInfomation">
+    <column id="330" parent="237" name="contactInfomation">
       <Position>12</Position>
       <DataType>char(15)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="325" parent="237" name="depID">
+    <column id="331" parent="237" name="depID">
       <Position>13</Position>
       <DataType>int(3)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="326" parent="237" name="depID">
+    <column id="332" parent="237" name="year">
+      <Position>14</Position>
+      <DataType>int(4)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="333" parent="237" name="depID">
       <ColNames>depID</ColNames>
     </index>
-    <key id="327" parent="237" name="PRIMARY">
+    <key id="334" parent="237" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="328" parent="237" name="professor_ibfk_1">
+    <foreign-key id="335" parent="237" name="professor_ibfk_1">
       <ColNames>depID</ColNames>
       <RefSchemaName>education</RefSchemaName>
       <RefTableName>department</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="329" parent="238" name="id">
+    <column id="336" parent="238" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="330" parent="238" name="proID">
+    <column id="337" parent="238" name="proID">
       <Position>2</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="331" parent="238" name="queone">
+    <column id="338" parent="238" name="queone">
       <Position>3</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="332" parent="238" name="quetwo">
+    <column id="339" parent="238" name="quetwo">
       <Position>4</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="333" parent="238" name="quethree">
+    <column id="340" parent="238" name="quethree">
       <Position>5</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="334" parent="238" name="ansone">
+    <column id="341" parent="238" name="ansone">
       <Position>6</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="335" parent="238" name="anstwo">
+    <column id="342" parent="238" name="anstwo">
       <Position>7</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="336" parent="238" name="ansthree">
+    <column id="343" parent="238" name="ansthree">
       <Position>8</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="337" parent="238" name="proID">
+    <index id="344" parent="238" name="proID">
       <ColNames>proID</ColNames>
     </index>
-    <key id="338" parent="238" name="PRIMARY">
+    <key id="345" parent="238" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id
 proID</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="339" parent="238" name="securitypro_ibfk_1">
+    <foreign-key id="346" parent="238" name="securitypro_ibfk_1">
       <ColNames>proID</ColNames>
       <RefSchemaName>education</RefSchemaName>
       <RefTableName>professor</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="340" parent="239" name="id">
+    <column id="347" parent="239" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="341" parent="239" name="stuID">
+    <column id="348" parent="239" name="stuID">
       <Position>2</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="342" parent="239" name="queone">
+    <column id="349" parent="239" name="queone">
       <Position>3</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="343" parent="239" name="quetwo">
+    <column id="350" parent="239" name="quetwo">
       <Position>4</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="344" parent="239" name="quethree">
+    <column id="351" parent="239" name="quethree">
       <Position>5</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="345" parent="239" name="ansone">
+    <column id="352" parent="239" name="ansone">
       <Position>6</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="346" parent="239" name="anstwo">
+    <column id="353" parent="239" name="anstwo">
       <Position>7</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="347" parent="239" name="ansthree">
+    <column id="354" parent="239" name="ansthree">
       <Position>8</Position>
       <DataType>char(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="348" parent="239" name="stuID">
+    <index id="355" parent="239" name="stuID">
       <ColNames>stuID</ColNames>
     </index>
-    <key id="349" parent="239" name="PRIMARY">
+    <key id="356" parent="239" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id
 stuID</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="350" parent="239" name="securitystu_ibfk_1">
+    <foreign-key id="357" parent="239" name="securitystu_ibfk_1">
       <ColNames>stuID</ColNames>
       <RefSchemaName>education</RefSchemaName>
       <RefTableName>student</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="351" parent="240" name="couId">
+    <column id="358" parent="240" name="couId">
       <Position>1</Position>
       <DataType>bigint(15)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="352" parent="240" name="stuId">
+    <column id="359" parent="240" name="stuId">
       <Position>2</Position>
       <DataType>bigint(15)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="353" parent="240" name="selected">
+    <column id="360" parent="240" name="selected">
       <Position>3</Position>
       <DataType>int(1)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="354" parent="240" name="sid">
+    <index id="361" parent="240" name="sid">
       <ColNames>stuId</ColNames>
     </index>
-    <key id="355" parent="240" name="PRIMARY">
+    <key id="362" parent="240" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>couId
 stuId</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="356" parent="240" name="selects_ibfk_1">
+    <foreign-key id="363" parent="240" name="selects_ibfk_1">
       <ColNames>couId</ColNames>
       <RefSchemaName>education</RefSchemaName>
       <RefTableName>course</RefTableName>
       <RefColNames>id</RefColNames>
       <OnUpdate>cascade</OnUpdate>
     </foreign-key>
-    <foreign-key id="357" parent="240" name="selects_ibfk_2">
+    <foreign-key id="364" parent="240" name="selects_ibfk_2">
       <ColNames>stuId</ColNames>
       <RefSchemaName>education</RefSchemaName>
       <RefTableName>student</RefTableName>
       <RefColNames>id</RefColNames>
       <OnUpdate>cascade</OnUpdate>
     </foreign-key>
-    <column id="358" parent="241" name="id">
+    <column id="365" parent="241" name="id">
       <Position>1</Position>
       <DataType>bigint(15)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="359" parent="241" name="password">
+    <column id="366" parent="241" name="password">
       <Position>2</Position>
       <DataType>char(15)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="360" parent="241" name="name">
+    <column id="367" parent="241" name="name">
       <Position>3</Position>
       <DataType>char(15)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="361" parent="241" name="timeEnrollment">
+    <column id="368" parent="241" name="timeEnrollment">
       <Position>4</Position>
       <DataType>date|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="362" parent="241" name="timeGraduation">
+    <column id="369" parent="241" name="timeGraduation">
       <Position>5</Position>
       <DataType>date|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="363" parent="241" name="title">
+    <column id="370" parent="241" name="title">
       <Position>6</Position>
       <DataType>char(10)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="364" parent="241" name="sex">
+    <column id="371" parent="241" name="sex">
       <Position>7</Position>
-      <DataType>char(3)|0</DataType>
+      <DataType>int(1)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="365" parent="241" name="birthday">
+    <column id="372" parent="241" name="birthday">
       <Position>8</Position>
       <DataType>date|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="366" parent="241" name="nationality">
+    <column id="373" parent="241" name="nationality">
       <Position>9</Position>
       <DataType>char(10)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="367" parent="241" name="areaInterest">
+    <column id="374" parent="241" name="areaInterest">
       <Position>10</Position>
       <DataType>char(10)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="368" parent="241" name="healthState">
+    <column id="375" parent="241" name="healthState">
       <Position>11</Position>
       <DataType>char(5)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="369" parent="241" name="nativePlace">
+    <column id="376" parent="241" name="nativePlace">
       <Position>12</Position>
       <DataType>char(20)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="370" parent="241" name="politicalStatus">
+    <column id="377" parent="241" name="politicalStatus">
       <Position>13</Position>
       <DataType>char(10)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="371" parent="241" name="majID">
+    <column id="378" parent="241" name="majID">
       <Position>14</Position>
       <DataType>int(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="372" parent="241" name="claID">
+    <column id="379" parent="241" name="claID">
       <Position>15</Position>
       <DataType>bigint(15)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="373" parent="241" name="majID">
+    <column id="380" parent="241" name="year">
+      <Position>16</Position>
+      <DataType>int(4)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="381" parent="241" name="majID">
       <ColNames>majID</ColNames>
     </index>
-    <index id="374" parent="241" name="claID">
+    <index id="382" parent="241" name="claID">
       <ColNames>claID</ColNames>
     </index>
-    <key id="375" parent="241" name="PRIMARY">
+    <key id="383" parent="241" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="376" parent="241" name="student_ibfk_1">
+    <foreign-key id="384" parent="241" name="student_ibfk_1">
       <ColNames>majID</ColNames>
       <RefSchemaName>education</RefSchemaName>
       <RefTableName>major</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="377" parent="241" name="student_ibfk_2">
+    <foreign-key id="385" parent="241" name="student_ibfk_2">
       <ColNames>claID</ColNames>
       <RefSchemaName>education</RefSchemaName>
       <RefTableName>clazz</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="378" parent="242" name="stuID">
+    <column id="386" parent="242" name="stuID">
       <Position>1</Position>
       <DataType>bigint(15)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="379" parent="242" name="couID">
+    <column id="387" parent="242" name="couID">
       <Position>2</Position>
       <DataType>bigint(15)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="380" parent="242" name="grade">
+    <column id="388" parent="242" name="grade">
       <Position>3</Position>
       <DataType>float(3,1)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="381" parent="242" name="ranking">
+    <column id="389" parent="242" name="ranking">
       <Position>4</Position>
       <DataType>int(4)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="382" parent="242" name="PerformancePoint">
+    <column id="390" parent="242" name="PerformancePoint">
       <Position>5</Position>
       <DataType>float(3,1)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="383" parent="242" name="selected">
+    <column id="391" parent="242" name="completed">
       <Position>6</Position>
       <DataType>int(1)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="384" parent="242" name="couID">
+    <index id="392" parent="242" name="couID">
       <ColNames>couID</ColNames>
     </index>
-    <key id="385" parent="242" name="PRIMARY">
+    <key id="393" parent="242" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>stuID
 couID</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="386" parent="242" name="takes_ibfk_1">
+    <foreign-key id="394" parent="242" name="takes_ibfk_1">
       <ColNames>stuID</ColNames>
       <RefSchemaName>education</RefSchemaName>
       <RefTableName>student</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="387" parent="242" name="takes_ibfk_2">
+    <foreign-key id="395" parent="242" name="takes_ibfk_2">
       <ColNames>couID</ColNames>
       <RefSchemaName>education</RefSchemaName>
       <RefTableName>course</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="388" parent="243" name="id">
+    <column id="396" parent="243" name="id">
       <Position>1</Position>
       <DataType>int(10)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="389" parent="243" name="endWeek">
+    <column id="397" parent="243" name="endWeek">
       <Position>2</Position>
       <DataType>varchar(2)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="390" parent="243" name="startWeek">
+    <column id="398" parent="243" name="startWeek">
       <Position>3</Position>
       <DataType>varchar(2)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="391" parent="243" name="times">
+    <column id="399" parent="243" name="times">
       <Position>4</Position>
       <DataType>varchar(40)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="392" parent="243" name="PRIMARY">
+    <key id="400" parent="243" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id
 times</ColNames>

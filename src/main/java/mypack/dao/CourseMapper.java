@@ -3,14 +3,17 @@ package mypack.dao;
 import mypack.Response.CourseInfo;
 import mypack.Response.SelectCourseInfo;
 import mypack.pojo.Course;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Param;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.annotations.Update;
+import org.apache.ibatis.annotations.*;
 
 import java.util.ArrayList;
 
 public interface CourseMapper {
+
+    @Select("select course.*,timeslot.startWeek,timeslot.endWeek,timeslot.times,professor.name as teaName,department.name as depName\n" +
+            "from course,timeslot,professor,department\n" +
+            "WHERE course.type=#{type} and course.timeSlotID=timeslot.id and course.depID=department.id and course.proID=professor.id and department.id=#{id} and course.learnYear=#{learnYear} and course.learnTerm=#{learnTerm}")
+    ArrayList<CourseInfo> queryCourse(@Param("id")long id, @Param("learnTerm") int learnTerm, @Param("learnYear")String learnYear,@Param("type")int type);
+
 
     @Select("select course.*,timeslot.startWeek,timeslot.endWeek,timeslot.times,professor.name as teaName,department.name as depName\n" +
             "from course,timeslot,professor,department\n" +
@@ -74,4 +77,16 @@ public interface CourseMapper {
             "from takes,course,timeslot,professor,department\n" +
             "where takes.stuID=#{id} and takes.couID=course.id and timeslot.id=course.timeSlotID and course.proID=professor.id and department.id=course.depID\n")
     ArrayList<SelectCourseInfo> getStuMyCourse(@Param("id")long id);
+
+    @Insert("INSERT INTO `course`(id,name,type,credict,totalTime,learnTerm,learnYear,opening,classroom,depID,timeSlotID,proID,admID,stuNumber,quantity)\n" +
+            "VALUES (#{id},#{name},#{type},#{credict},#{totalTime},#{learnTerm},#{learnYear},0,#{classroom},#{depID},#{timeSlotID},#{proID},#{admID},0,#{quantity})")
+    boolean addCourse(@Param("id")long id, @Param("name")String name, @Param("type")int type, @Param("credict")int credict, @Param("totalTime")int totalTime, @Param("learnTerm")int learnTerm, @Param("learnYear")String learnYear, @Param("classroom")String classroom, @Param("depID")int depID, @Param("timeSlotID")int timeSlotID, @Param("proID")long proID, @Param("admID")int admID, @Param("quantity")int quantity);
+
+    @Delete("delete from course\n" +
+            "where id=#{id}")
+    boolean deleteCourse(@Param("id")long id);
+
+    @Update("update course set opening = #{opening}\n" +
+            "where id=#{id}")
+    int changeOpening(@Param("id")long id, @Param("opening")int opening);
 }

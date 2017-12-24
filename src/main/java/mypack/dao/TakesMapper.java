@@ -2,8 +2,10 @@ package mypack.dao;
 
 import mypack.Response.ScoreInfo;
 import mypack.Response.TakesInfo;
+import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.Update;
 
 import java.util.ArrayList;
 
@@ -21,5 +23,27 @@ public interface TakesMapper {
             "where takes.stuID=student.id and course.id=takes.couID <when test='id!=null'>and takes.couID=#{id} </when></script>"})
     ArrayList<TakesInfo> getCourseStudent(@Param("id")long id);
 
+    @Insert("insert into takes(stuID, couID)\n" +
+            "    values(#{stuID},#{couID})")
+    boolean addStudentOfCourse(@Param("stuID")long stuID, @Param("couID")long couID);
 
+    @Update("delete from takes\n" +
+            "where stuID=#{stuID} and couID=#{couID}\n")
+    boolean deleteStudentOfCourse(@Param("stuID")long stuID, @Param("couID")long couID);
+
+    @Update("update selects set selected = 0\n" +
+            "where stuID=#{stuID} and couID=#{couID}\n")
+    int deleteStudentOfCourse2(@Param("stuID")long stuID, @Param("couID")long couID);
+
+    @Update("delete from selects\n" +
+            "where stuId=#{stuID} and couId=#{couID}\n")
+    boolean deleteStudentOfCourse3(@Param("stuID")long stuID, @Param("couID")long couID);
+
+    @Update("delete takes from takes, student, clazz\n" +
+            "where takes.stuID=student.id and student.claID=clazz.id and takes.couID=#{couID} and clazz.name=#{claName}")
+    boolean deleteClazzOfCourse(@Param("claName")String claName, @Param("couID")long couID);
+
+    @Select("select stuID from selects\n" +
+            "where couId=#{couId}")
+    ArrayList<Long> findWithCouID(@Param("couId")long couId);
 }

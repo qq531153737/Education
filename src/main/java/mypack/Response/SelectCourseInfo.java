@@ -17,8 +17,8 @@ public class SelectCourseInfo extends CourseInfo{
 
     }
 
-    public SelectCourseInfo(long id, String name, int type, int credict, int totalTime, String learnTerm, String learnYear, String classroom, int depID, int timeSlotID, long proID, int admID, int stuNumber, int quantity, int opening, String startWeek, String endWeek, String times, String teaName, String depName, int selected, int completed) {
-        super(id, name, type, credict, totalTime, learnTerm, learnYear, classroom, depID, timeSlotID, proID, admID, stuNumber, quantity, opening, startWeek, endWeek, times, teaName, depName);
+    public SelectCourseInfo(long id, String name, int type, int credict, int totalTime, String learnTerm, String learnYear, String classroom, int depID, int timeSlotID, long proID, int admID, int stuNumber, int quantity, int opening, int newCourse, String startWeek, String endWeek, String times, String teaName, String depName, int selected, int completed) {
+        super(id, name, type, credict, totalTime, learnTerm, learnYear, classroom, depID, timeSlotID, proID, admID, stuNumber, quantity, opening, newCourse, startWeek, endWeek, times, teaName, depName);
         this.selected = selected;
         this.completed = completed;
     }

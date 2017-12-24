@@ -11,4 +11,6 @@ public interface DepartmentMapper {
     Department findWithName(String name);
     @Update("update department set newProfessor = newProfessor+1 where id = #{id}")
     int autoIncreaseNewProfessor(int id);
+    @Update("update department set newCourse = newCourse+1 where id = #{id}")
+    int autoIncreaseNewCourse(int id);
 }

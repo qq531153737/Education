@@ -197,7 +197,7 @@ public class ProfessorController {
         Data data = new Data();
         System.out.println(1111);
         Long id = Long.parseLong(request.getParameter("id"));
-        if (notificationServiceImpl.readedNotification(id))
+        if (notificationServiceImpl.readedNotificationPro(id))
             data.setData(1);
         else data.setData(0);
         System.out.println(2222);

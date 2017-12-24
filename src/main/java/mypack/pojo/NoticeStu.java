@@ -5,13 +5,22 @@ import java.io.Serializable;
 public class NoticeStu implements Serializable {
     private long notID;
     private long stuID;
-
+    private int readed;
     public NoticeStu() {
     }
 
-    public NoticeStu(long notID, long stuID) {
+    public int getReaded() {
+        return readed;
+    }
+
+    public void setReaded(int readed) {
+        this.readed = readed;
+    }
+
+    public NoticeStu(long notID, long stuID, int readed) {
         this.notID = notID;
         this.stuID = stuID;
+        this.readed = readed;
     }
 
     public long getNotID() {

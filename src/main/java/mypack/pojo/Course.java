@@ -18,6 +18,37 @@ public class Course implements Serializable {
     private int stuNumber;
     private int quantity;
     private int opening;
+    private int newCourse;
+
+    public Course() {
+    }
+
+    public Course(long id, String name, int type, int credict, int totalTime, String learnTerm, String learnYear, String classroom, int depID, int timeSlotID, long proID, int admID, int stuNumber, int quantity, int opening, int newCourse) {
+        this.id = id;
+        this.name = name;
+        this.type = type;
+        this.credict = credict;
+        this.totalTime = totalTime;
+        this.learnTerm = learnTerm;
+        this.learnYear = learnYear;
+        this.classroom = classroom;
+        this.depID = depID;
+        this.timeSlotID = timeSlotID;
+        this.proID = proID;
+        this.admID = admID;
+        this.stuNumber = stuNumber;
+        this.quantity = quantity;
+        this.opening = opening;
+        this.newCourse = newCourse;
+    }
+
+    public int getNewCourse() {
+        return newCourse;
+    }
+
+    public void setNewCourse(int newCourse) {
+        this.newCourse = newCourse;
+    }
 
     public int getOpening() {
         return opening;
@@ -42,29 +73,6 @@ public class Course implements Serializable {
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
-
-    public Course(long id, String name, int type, int credict, int totalTime, String learnTerm, String learnYear, String classroom, int depID, int timeSlotID, long proID, int admID, int stuNumber, int quantity, int opening) {
-        this.id = id;
-        this.name = name;
-        this.type = type;
-        this.credict = credict;
-        this.totalTime = totalTime;
-        this.learnTerm = learnTerm;
-        this.learnYear = learnYear;
-        this.classroom = classroom;
-        this.depID = depID;
-        this.timeSlotID = timeSlotID;
-        this.proID = proID;
-        this.admID = admID;
-        this.stuNumber = stuNumber;
-        this.quantity = quantity;
-        this.opening = opening;
-    }
-
-    public Course() {
-    }
-
-
 
     public int getCredict() {
         return credict;

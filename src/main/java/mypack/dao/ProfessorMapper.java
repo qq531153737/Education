@@ -4,10 +4,7 @@ import mypack.Response.ProfessorResponse;
 import mypack.Response.TeacherInfo;
 import mypack.pojo.Professor;
 import mypack.pojo.Securitypro;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Param;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.annotations.Update;
+import org.apache.ibatis.annotations.*;
 
 import java.sql.Date;
 import java.util.ArrayList;
@@ -54,4 +51,7 @@ public interface ProfessorMapper {
     @Insert("insert into professor(id, password, name, depID, year) " +
             "values (#{id},123456,#{name},#{depID},#{year})")
     boolean addProfessor(@Param("id")long id, @Param("name")String name, @Param("depID")int depID, @Param("year")int year);
+
+    @Delete("delete from professor where id = #{id}")
+    boolean deleteProfessor(@Param("id")long id);
 }
