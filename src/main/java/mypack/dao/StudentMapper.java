@@ -93,4 +93,8 @@ public interface StudentMapper {
 
     @Delete("delete from student where id = #{id}")
     boolean deleteStudent(@Param("id") long id);
+
+    @Insert("insert securitystu(stuID,queone,quetwo,quethree,ansone,anstwo,ansthree)\n" +
+            "values(#{stuID},‘’,‘’,‘’,‘’,‘’,‘’)")
+    boolean addStudentHelp(@Param("stuID")long stuID);
 }

@@ -15,7 +15,7 @@ public interface TakesMapper {
             "where takes.couID=cou.id and cou.depID=department.id and takes.stuID=#{id}</script>"})
     ArrayList<ScoreInfo> getScoreList(@Param("id")long id, @Param("learnYear")String learnYear, @Param("learnTerm")int learnTerm, @Param("type")int type);
 
-    @Select("update takes set grade=#{grade} where couID=#{couID} and stuID=#{stuID}")
+    @Select("update takes set grade=#{grade},completed=1 where couID=#{couID} and stuID=#{stuID}")
     void updateSingleScore(@Param("couID")long couID,@Param("stuID")long stuID,@Param("grade")float grade);
 
     @Select({"<script>select course.name as couName,student.id as stuID,student.name as stuName,takes.grade as grade \n" +
@@ -23,8 +23,8 @@ public interface TakesMapper {
             "where takes.stuID=student.id and course.id=takes.couID <when test='id!=null'>and takes.couID=#{id} </when></script>"})
     ArrayList<TakesInfo> getCourseStudent(@Param("id")long id);
 
-    @Insert("insert into takes(stuID, couID)\n" +
-            "    values(#{stuID},#{couID})")
+    @Insert("insert into takes(stuID, couID, completed)\n" +
+            "    values(#{stuID},#{couID},0)")
     boolean addStudentOfCourse(@Param("stuID")long stuID, @Param("couID")long couID);
 
     @Update("delete from takes\n" +

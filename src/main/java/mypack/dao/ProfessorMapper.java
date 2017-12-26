@@ -54,4 +54,8 @@ public interface ProfessorMapper {
 
     @Delete("delete from professor where id = #{id}")
     boolean deleteProfessor(@Param("id")long id);
+
+    @Insert("insert securitypro(proID,queone,quetwo,quethree,ansone,anstwo,ansthree)\n" +
+            "values(#{proID}‘’,‘’,‘’,‘’,‘’,‘’)")
+    boolean addProfessorHelp(@Param("proID")long proID);
 }

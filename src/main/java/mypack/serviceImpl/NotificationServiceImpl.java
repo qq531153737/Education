@@ -49,25 +49,33 @@ public class NotificationServiceImpl implements NotificationService{
     }
 
     @Override
-    public boolean delNotification(long id) {
+    public boolean delNotification(long id,long myId) {
         System.out.println(id);
-        noticeMapper.deleNotification(id);
+        noticeMapper.deleNotification(id,myId);
         System.out.println(123);
         return true;
     }
 
     @Override
-    public boolean readedNotification(long id) {
+    public boolean delNotificationPro(long id, long myId) {
+        System.out.println(id);
+        noticeMapper.deleNotificationPro(id,myId);
+        System.out.println(123);
+        return true;
+    }
+
+    @Override
+    public boolean readedNotification(long id,long stuId) {
         System.out.println(4554);
-        noticeMapper.readNotification(id);
+        noticeMapper.readNotification(id,stuId);
         System.out.println(id);
         return true;
     }
 
     @Override
-    public boolean readedNotificationPro(long id) {
+    public boolean readedNotificationPro(long id,long proID) {
         System.out.println(4554);
-        noticeMapper.readNotificationPro(id);
+        noticeMapper.readNotificationPro(id,proID);
         System.out.println(id);
         return true;
     }

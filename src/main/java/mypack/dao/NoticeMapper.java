@@ -20,15 +20,18 @@ public interface NoticeMapper {
             "where noticestu.notID=notice.id and notice.admID=administor.id and noticestu.stuID=#{id}")
     ArrayList<NoticeInfo> getStuNotificationList(@Param("id")Long id);
 
-    @Select("update noticestu set noticestu.readed=1 where notice.id=#{id}")
-    void readNotification(@Param("id")long id);
+    @Select("update noticestu set readed=1 where notID=#{id} and stuID=#{myId}")
+    void readNotification(@Param("id")long id,@Param("myId")long myId);
 
-    @Select("update noticepro set noticepro.readed=1 where notice.id=#{id}")
-    void readNotificationPro(@Param("id")long id);
+    @Select("update noticepro set readed=1 where notID=#{id} and proID=#{myId}")
+    void readNotificationPro(@Param("id")long id,@Param("myId")long myId);
 
 
-    @Select("delete from notice where notice.id=#{id}")
-    void deleNotification(@Param("id")long id);
+    @Select("delete from noticestu where notID=#{id} and stuID=#{myId}")
+    void deleNotification(@Param("id")long id,@Param("myId")long myId);
+
+    @Select("delete from noticepro where notID=#{id} and proID=#{myId}")
+    void deleNotificationPro(@Param("id")long id,@Param("myId")long myId);
 
     @Insert("insert into notice(id, time, noticeContent, admID) values(#{id},#{time},#{noticeContent},#{admID})")
     boolean publicNotice(@Param("id") long id, @Param("noticeContent") String noticeContent, @Param("admID") int admID, @Param("time") Date time);

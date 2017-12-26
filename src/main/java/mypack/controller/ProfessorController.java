@@ -185,7 +185,8 @@ public class ProfessorController {
     public Data delNotifications(HttpServletRequest request) {
         Data data = new Data();
         Long id = Long.parseLong(request.getParameter("id"));
-        if (notificationServiceImpl.delNotification(id))
+        Long myId=Long.parseLong(request.getParameter("myId"));
+        if (notificationServiceImpl.delNotification(id,myId))
             data.setData(1);
         else data.setData(0);
         return data;
@@ -197,7 +198,8 @@ public class ProfessorController {
         Data data = new Data();
         System.out.println(1111);
         Long id = Long.parseLong(request.getParameter("id"));
-        if (notificationServiceImpl.readedNotificationPro(id))
+        Long myId=Long.parseLong(request.getParameter("myId"));
+        if (notificationServiceImpl.readedNotificationPro(id,myId))
             data.setData(1);
         else data.setData(0);
         System.out.println(2222);

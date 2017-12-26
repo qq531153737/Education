@@ -38,6 +38,7 @@ public class AdministorAddServiceImpl implements AdministorAddService{
         long id = (long) year * 100000000 + majID * 1000 + newStudent+1;
         System.out.println(id);
         if (studentMapper.addStudent(id, name, majID, claID, year)) {
+            studentMapper.addStudentHelp(id);
             System.out.println("456");
             majorMapper.autoIncreaseNewStudent(majID); ///!!!
             System.out.println("111");
@@ -56,8 +57,9 @@ public class AdministorAddServiceImpl implements AdministorAddService{
         Department department = departmentMapper.findWithID(depID);
         System.out.println(depID);
         int newProfessor = department.getNewProfessor();
-        long id = (long)year*10000000 + depID*10000 + newProfessor+1;
+        long id = (long)year*100000000 + depID*100000 + newProfessor+1;
         if(professorMapper.addProfessor(id, name, depID, year)) {
+            professorMapper.addProfessorHelp(id);
             System.out.println("123123");
             departmentMapper.autoIncreaseNewProfessor(depID); ///!!!
             return true;
@@ -70,7 +72,7 @@ public class AdministorAddServiceImpl implements AdministorAddService{
     public boolean addClazz(String name, int majID, int year, long proID) {
         Major major = majorMapper.findWithID(majID);
         int newClazz = major.getNewClazz();
-        long id = (long)year*1000000 + majID*100 + newClazz+1;
+        long id = (long)year*10000000 + majID*100 + newClazz+1;
         System.out.println(id);
         if(clazzMapper.addClazz(id, name, majID, year, proID)) {
             System.out.println("123");
@@ -89,7 +91,7 @@ public class AdministorAddServiceImpl implements AdministorAddService{
 
         int year = Integer.parseInt(learnYear.substring(0,4));
         int newCourse = department.getNewCourse();
-        long id = year*1000000 + depID*10000 + newCourse+1;
+        long id = (long)year*10000000 + depID*10000 + newCourse+1;
         System.out.println(id);
         if(courseMapper.addCourse(id, name, type, credict, totalTime, learnTerm, learnYear, classroom, depID, timeSlotID, proID, admID, quantity)) {
             departmentMapper.autoIncreaseNewCourse(depID); ///!!!

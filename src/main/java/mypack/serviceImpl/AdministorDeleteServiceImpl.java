@@ -37,6 +37,7 @@ public class AdministorDeleteServiceImpl implements AdministorDeleteService {
 
     @Override
     public boolean deleteClazz(long id) {
+        System.out.print(id);
         if(clazzMapper.deleteClazz(id))
             return true;
         return false;

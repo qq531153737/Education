@@ -7,234 +7,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65628251-ca4a-45c0-be6b-27ffcedf4ece" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mypack/Response/ClazzInfo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mypack/service/AdministorDeleteService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mypack/service/PublicAndStopService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/AdministorDeleteServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/PublicAndStopServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/25543db2-5857-45d5-8392-884babbe82b7.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/25543db2-5857-45d5-8392-884babbe82b7.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/controller/AdministorController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/controller/AdministorController.class" />
       <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/controller/ProfessorController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/controller/ProfessorController.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/ClazzMapper.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/ClazzMapper.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/CourseMapper.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/CourseMapper.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/DepartmentMapper.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/DepartmentMapper.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/MajorMapper.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/MajorMapper.class" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/controller/StudentController.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/controller/StudentController.class" />
       <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/NoticeMapper.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/NoticeMapper.class" />
       <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/ProfessorMapper.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/ProfessorMapper.class" />
       <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/StudentMapper.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/StudentMapper.class" />
       <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/TakesMapper.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/dao/TakesMapper.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/pojo/Course.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/pojo/Course.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/pojo/Department.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/pojo/Department.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/pojo/Notice.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/pojo/Notice.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/pojo/NoticePro.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/pojo/NoticePro.class" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/pojo/NoticeStu.class" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/WEB-INF/classes/mypack/pojo/NoticeStu.class" />
       <change beforePath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/index.html" afterPath="$PROJECT_DIR$/build/libs/exploded/education-1.0-SNAPSHOT.war/index.html" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/mypack/controller/AdministorController.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/controller/AdministorController.class" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/mypack/controller/ProfessorController.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/controller/ProfessorController.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mypack/dao/ClazzMapper.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/dao/ClazzMapper.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mypack/dao/CourseMapper.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/dao/CourseMapper.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mypack/dao/DepartmentMapper.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/dao/DepartmentMapper.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mypack/dao/MajorMapper.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/dao/MajorMapper.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/mypack/controller/StudentController.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/controller/StudentController.class" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/mypack/dao/NoticeMapper.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/dao/NoticeMapper.class" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/mypack/dao/ProfessorMapper.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/dao/ProfessorMapper.class" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/mypack/dao/StudentMapper.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/dao/StudentMapper.class" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/mypack/dao/TakesMapper.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/dao/TakesMapper.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mypack/pojo/Course.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/pojo/Course.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mypack/pojo/Department.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/pojo/Department.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mypack/pojo/Notice.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/pojo/Notice.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mypack/pojo/NoticePro.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/pojo/NoticePro.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/mypack/pojo/NoticeStu.class" afterPath="$PROJECT_DIR$/out/production/classes/mypack/pojo/NoticeStu.class" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypack/Response/CourseInfo.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/Response/CourseInfo.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypack/Response/NoticeInfo.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/Response/NoticeInfo.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypack/Response/ScoreInfo.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/Response/ScoreInfo.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypack/Response/SelectCourseInfo.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/Response/SelectCourseInfo.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypack/controller/AdministorController.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/controller/AdministorController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mypack/controller/ProfessorController.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/controller/ProfessorController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypack/dao/ClazzMapper.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/dao/ClazzMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypack/dao/CourseMapper.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/dao/CourseMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypack/dao/DepartmentMapper.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/dao/DepartmentMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypack/dao/MajorMapper.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/dao/MajorMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mypack/controller/StudentController.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/controller/StudentController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mypack/dao/NoticeMapper.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/dao/NoticeMapper.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mypack/dao/ProfessorMapper.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/dao/ProfessorMapper.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mypack/dao/StudentMapper.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/dao/StudentMapper.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mypack/dao/TakesMapper.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/dao/TakesMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypack/pojo/Course.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/pojo/Course.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypack/pojo/Department.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/pojo/Department.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypack/pojo/Notice.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/pojo/Notice.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypack/pojo/NoticePro.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/pojo/NoticePro.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypack/pojo/NoticeStu.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/pojo/NoticeStu.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypack/service/AdministorAddService.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/service/AdministorAddService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypack/service/AdministorQueryService.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/service/AdministorQueryService.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mypack/service/NotificationService.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/service/NotificationService.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/AdministorAddServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/AdministorAddServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/AdministorQueryServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/AdministorQueryServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/AdministorDeleteServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/AdministorDeleteServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/NotificationServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/NotificationServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/app.5bae39f1c1f114544619a67ce1492ea6.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/fonts/element-icons.b02bdc1.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/img/jiemian.f55dfc2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/0.9014d32d006b4f7db088.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/0.9014d32d006b4f7db088.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/1.f295e61e254ab9fa7e7f.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/1.f295e61e254ab9fa7e7f.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/10.c16d36c25325539bdd8b.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/10.c16d36c25325539bdd8b.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/11.99711534fbe8aff25aec.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/11.99711534fbe8aff25aec.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/12.75108d87993177e2e89a.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/12.75108d87993177e2e89a.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/13.8e124f76981549fb0eeb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/13.8e124f76981549fb0eeb.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/14.bb2ad5f8c37699b5ad1a.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/14.bb2ad5f8c37699b5ad1a.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/15.154977beece2847198b4.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/15.154977beece2847198b4.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/16.d6dbbd27cb8790683b21.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/16.d6dbbd27cb8790683b21.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/17.20e2250d1dd682534821.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/17.20e2250d1dd682534821.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/18.326a4a371edce3daf308.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/18.326a4a371edce3daf308.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/19.dbe119dceb2418e92343.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/19.dbe119dceb2418e92343.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/2.334c6ba5332accf0c921.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/2.334c6ba5332accf0c921.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/20.925f2de79e9bae8d7db8.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/20.925f2de79e9bae8d7db8.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/21.061d3c0c68d9063ce9d8.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/21.061d3c0c68d9063ce9d8.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/22.19b979af50efd882644a.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/22.19b979af50efd882644a.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/23.6b7c299cab1c7d79c3c3.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/23.6b7c299cab1c7d79c3c3.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/24.408a0df2ece8435d97d5.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/24.408a0df2ece8435d97d5.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/25.b4629bd5d06e585e3937.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/25.b4629bd5d06e585e3937.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/26.200fc843516d1d4b0f09.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/26.200fc843516d1d4b0f09.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/27.036c2194963bcc833858.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/27.036c2194963bcc833858.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/28.f31806864a8498179851.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/28.f31806864a8498179851.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/29.0472860a46e537fd1ed6.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/29.0472860a46e537fd1ed6.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/3.73f444d3738e467f8fc0.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/3.73f444d3738e467f8fc0.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/30.239348691dcbb6736dfa.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/30.239348691dcbb6736dfa.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/31.e36f4ddc3879f8e16d1b.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/31.e36f4ddc3879f8e16d1b.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/32.b1dab2fb542380150616.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/32.b1dab2fb542380150616.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/33.5ac839255a085f88f88e.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/33.5ac839255a085f88f88e.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/34.696fb0e4d3e00d9f08ce.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/34.696fb0e4d3e00d9f08ce.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/35.e1634b699bfd53c28a64.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/35.e1634b699bfd53c28a64.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/36.51fad83561d42622da36.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/36.51fad83561d42622da36.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/37.4e4e2467f5ea46e3c6b4.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/37.4e4e2467f5ea46e3c6b4.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/38.98341135b64389082f78.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/38.98341135b64389082f78.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/39.1376ec60d6e1f8f14815.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/39.1376ec60d6e1f8f14815.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/4.087fb5c98144c47fa024.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/4.087fb5c98144c47fa024.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/5.31ee044ea8a93d3a053a.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/5.31ee044ea8a93d3a053a.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/6.b169480b360f43881005.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/6.b169480b360f43881005.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/7.4ff1c68fc2e67502ee5e.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/7.4ff1c68fc2e67502ee5e.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/8.6b00062b0892ce0bc312.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/8.6b00062b0892ce0bc312.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/9.1effea40ad3e11ce109e.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/9.1effea40ad3e11ce109e.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/app.eb2dbb2ef0b48bf59582.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/app.eb2dbb2ef0b48bf59582.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/manifest.8e60863e8a68e44d3be5.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/manifest.8e60863e8a68e44d3be5.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/vendor.7d7358005bfb52567f94.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/vendor.7d7358005bfb52567f94.js.map" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/0.9014d32d006b4f7db088.js.map" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/0.9014d32d006b4f7db088.js.map" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/1.f295e61e254ab9fa7e7f.js.map" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/1.f295e61e254ab9fa7e7f.js.map" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/10.c16d36c25325539bdd8b.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/10.c16d36c25325539bdd8b.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/11.99711534fbe8aff25aec.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/11.99711534fbe8aff25aec.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/12.75108d87993177e2e89a.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/12.75108d87993177e2e89a.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/13.8e124f76981549fb0eeb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/13.8e124f76981549fb0eeb.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/14.7d4d4a7dd2dd963db36e.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/14.7d4d4a7dd2dd963db36e.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/15.154977beece2847198b4.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/15.154977beece2847198b4.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/16.96706274b186af3fcb29.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/16.96706274b186af3fcb29.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/17.20e2250d1dd682534821.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/17.20e2250d1dd682534821.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/18.326a4a371edce3daf308.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/18.326a4a371edce3daf308.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/19.dbe119dceb2418e92343.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/19.dbe119dceb2418e92343.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/20.925f2de79e9bae8d7db8.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/20.925f2de79e9bae8d7db8.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/21.061d3c0c68d9063ce9d8.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/21.061d3c0c68d9063ce9d8.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/22.1c1b21c90c936a9679c2.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/22.1c1b21c90c936a9679c2.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/23.3b9332d6bf558968f3ee.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/23.3b9332d6bf558968f3ee.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/24.d56361be3dc082606f19.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/24.d56361be3dc082606f19.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/25.af33827d22ba660edfe8.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/25.af33827d22ba660edfe8.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/26.73d05f26528c0660129a.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/26.73d05f26528c0660129a.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/27.092295a5846749bf46bc.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/27.092295a5846749bf46bc.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/28.2d59d494834d96a8d9cc.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/28.2d59d494834d96a8d9cc.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/29.fc0845537652b60d58af.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/29.fc0845537652b60d58af.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/30.84f0d8b861570d51f8d3.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/30.84f0d8b861570d51f8d3.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/31.195bfd1b4fb4eca501d1.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/31.195bfd1b4fb4eca501d1.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/32.e720905e19aabba779cd.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/32.e720905e19aabba779cd.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/33.1ec5526a42376be0ae6b.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/33.1ec5526a42376be0ae6b.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/34.2d4acec618365dd0cfdc.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/34.2d4acec618365dd0cfdc.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/35.fb60c734e31f87b2437d.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/35.fb60c734e31f87b2437d.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/36.7ba24a69fc9041b356e3.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/36.7ba24a69fc9041b356e3.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/37.a1af4685a0b825cfe0dd.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/37.a1af4685a0b825cfe0dd.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/5.31ee044ea8a93d3a053a.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/5.31ee044ea8a93d3a053a.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/6.bfb04e8e1993d9a9d6b5.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/6.bfb04e8e1993d9a9d6b5.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/7.4ff1c68fc2e67502ee5e.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/7.4ff1c68fc2e67502ee5e.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/8.6b00062b0892ce0bc312.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/8.6b00062b0892ce0bc312.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/9.1effea40ad3e11ce109e.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/9.1effea40ad3e11ce109e.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.1f1249843efeca042044.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.1f1249843efeca042044.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/manifest.430604548387045a9aeb.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/manifest.430604548387045a9aeb.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/vendor.8a44a763064165a7a4a6.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/vendor.8a44a763064165a7a4a6.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/0.9014d32d006b4f7db088.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/0.9014d32d006b4f7db088.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/1.f295e61e254ab9fa7e7f.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/1.f295e61e254ab9fa7e7f.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/2.334c6ba5332accf0c921.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/2.334c6ba5332accf0c921.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/3.73f444d3738e467f8fc0.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/3.73f444d3738e467f8fc0.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/4.087fb5c98144c47fa024.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/4.087fb5c98144c47fa024.js.map" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -306,88 +116,255 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="securitystu" pinned="false" current-in-tab="false">
+        <entry file="das://table:/a9537145/25543db2-5857-45d5-8392-884babbe82b7/education.securitystu">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DATABASE/25543db2-5857-45d5-8392-884babbe82b7.SCHEMA:education" pinned="false" current-in-tab="true">
+        <entry file="uml://DATABASE/25543db2-5857-45d5-8392-884babbe82b7.SCHEMA:education">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>25543db2-5857-45d5-8392-884babbe82b7.SCHEMA:education</OriginalElement>
+              <nodes>
+                <node x="579.8630952380952" y="242.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.professor</node>
+                <node x="1045.7301587301586" y="718.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.clazz</node>
+                <node x="0.0" y="1563.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.noticepro</node>
+                <node x="401.99999999999994" y="1563.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.selects</node>
+                <node x="594.7301587301587" y="744.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.timeslot</node>
+                <node x="1139.9801587301586" y="359.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.major</node>
+                <node x="200.99999999999994" y="1563.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.noticestu</node>
+                <node x="830.7301587301587" y="692.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.securitypro</node>
+                <node x="982.2400793650793" y="1524.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.takes</node>
+                <node x="145.74999999999994" y="757.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.administor</node>
+                <node x="1089.5" y="986.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.student</node>
+                <node x="93.25" y="1142.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.notice</node>
+                <node x="415.4781746031745" y="999.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.course</node>
+                <node x="1272.2400793650793" y="1498.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.securitystu</node>
+                <node x="591.2400793650793" y="0.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.department</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.noticepro" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.notice">
+                  <point x="45.25" y="-57.0" />
+                  <point x="135.75" y="1478.0" />
+                  <point x="144.25" y="1478.0" />
+                  <point x="-51.0" y="70.0" />
+                </edge>
+                <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.clazz" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.major">
+                  <point x="45.25" y="-96.0" />
+                  <point x="1181.4801587301586" y="672.0" />
+                  <point x="1189.2301587301586" y="672.0" />
+                  <point x="-49.25" y="83.0" />
+                </edge>
+                <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.professor" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.department">
+                  <point x="0.0" y="-200.0" />
+                  <point x="726.8630952380952" y="217.0" />
+                  <point x="725.2400793650793" y="217.0" />
+                  <point x="0.0" y="96.0" />
+                </edge>
+                <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.noticepro" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.professor">
+                  <point x="-45.25" y="-57.0" />
+                  <point x="45.25" y="662.0" />
+                  <point x="616.6130952380952" y="662.0" />
+                  <point x="-110.25" y="200.0" />
+                </edge>
+                <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.notice" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.administor">
+                  <point x="0.0" y="-70.0" />
+                  <point x="-49.5" y="57.0" />
+                </edge>
+                <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.noticestu" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.notice">
+                  <point x="-45.25" y="-57.0" />
+                  <point x="51.0" y="70.0" />
+                </edge>
+                <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.securitystu" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.student">
+                  <point x="0.0" y="-122.0" />
+                  <point x="1369.7400793650793" y="1478.0" />
+                  <point x="1292.5" y="1478.0" />
+                  <point x="87.0" y="226.0" />
+                </edge>
+                <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.student" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.major">
+                  <point x="58.0" y="-226.0" />
+                  <point x="1263.5" y="961.0" />
+                  <point x="1248.5" y="961.0" />
+                  <point x="1248.5" y="672.0" />
+                  <point x="1287.7301587301586" y="672.0" />
+                  <point x="49.25" y="83.0" />
+                </edge>
+                <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.course" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.administor">
+                  <point x="-82.5" y="-213.0" />
+                  <point x="442.9781746031745" y="961.0" />
+                  <point x="294.24999999999994" y="961.0" />
+                  <point x="49.5" y="57.0" />
+                </edge>
+                <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.major" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.department">
+                  <point x="0.0" y="-83.0" />
+                  <point x="1238.4801587301586" y="217.0" />
+                  <point x="814.5734126984125" y="217.0" />
+                  <point x="89.33333333333326" y="96.0" />
+                </edge>
+                <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.takes" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.course">
+                  <point x="-67.5" y="-96.0" />
+                  <point x="1049.7400793650793" y="1458.0" />
+                  <point x="580.4781746031745" y="1458.0" />
+                  <point x="55.0" y="213.0" />
+                </edge>
+                <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.clazz" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.professor">
+                  <point x="-45.25" y="-96.0" />
+                  <point x="1090.9801587301586" y="662.0" />
+                  <point x="837.1130952380952" y="662.0" />
+                  <point x="110.25" y="200.0" />
+                </edge>
+                <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.takes" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.student">
+                  <point x="67.5" y="-96.0" />
+                  <point x="1184.7400793650793" y="1478.0" />
+                  <point x="1234.5" y="1478.0" />
+                  <point x="29.0" y="226.0" />
+                </edge>
+                <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.selects" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.student">
+                  <point x="45.25" y="-57.0" />
+                  <point x="537.75" y="1478.0" />
+                  <point x="1176.5" y="1478.0" />
+                  <point x="-29.0" y="226.0" />
+                </edge>
+                <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.noticestu" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.student">
+                  <point x="45.25" y="-57.0" />
+                  <point x="336.74999999999994" y="1468.0" />
+                  <point x="1118.5" y="1468.0" />
+                  <point x="-87.0" y="226.0" />
+                </edge>
+                <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.course" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.professor">
+                  <point x="27.5" y="-213.0" />
+                  <point x="552.9781746031745" y="961.0" />
+                  <point x="584.2301587301587" y="961.0" />
+                  <point x="584.2301587301587" y="672.0" />
+                  <point x="690.1130952380952" y="672.0" />
+                  <point x="-36.75" y="200.0" />
+                </edge>
+                <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.student" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.clazz">
+                  <point x="-58.0" y="-226.0" />
+                  <point x="1147.5" y="961.0" />
+                  <point x="1136.2301587301586" y="961.0" />
+                  <point x="0.0" y="96.0" />
+                </edge>
+                <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.course" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.timeslot">
+                  <point x="82.5" y="-213.0" />
+                  <point x="607.9781746031745" y="961.0" />
+                  <point x="702.7301587301587" y="961.0" />
+                  <point x="0.0" y="70.0" />
+                </edge>
+                <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.selects" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.course">
+                  <point x="-45.25" y="-57.0" />
+                  <point x="447.24999999999994" y="1458.0" />
+                  <point x="470.4781746031745" y="1458.0" />
+                  <point x="-55.0" y="213.0" />
+                </edge>
+                <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.course" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.department">
+                  <point x="-27.5" y="-213.0" />
+                  <point x="497.9781746031745" y="961.0" />
+                  <point x="488.9880952380952" y="961.0" />
+                  <point x="488.9880952380952" y="217.0" />
+                  <point x="635.906746031746" y="217.0" />
+                  <point x="-89.33333333333337" y="96.0" />
+                </edge>
+                <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.securitypro" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.professor">
+                  <point x="0.0" y="-122.0" />
+                  <point x="928.2301587301587" y="672.0" />
+                  <point x="763.6130952380952" y="672.0" />
+                  <point x="36.75" y="200.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.2724177071509648" x="1529.8291666666667" y="1575.8" />
+              <SelectedNodes>
+                <node>25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.professor</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Columns</Category>
+                <Category>Key columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="student" pinned="false" current-in-tab="false">
+        <entry file="das://table:/a9537145/25543db2-5857-45d5-8392-884babbe82b7/education.student">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TakesMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/TakesMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="selects" pinned="false" current-in-tab="false">
+        <entry file="das://table:/a9537145/25543db2-5857-45d5-8392-884babbe82b7/education.selects">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mypack/controller/StudentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2200">
+              <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/StudentMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1936">
+              <caret line="97" column="47" lean-forward="false" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProfessorMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/ProfessorMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1034">
+              <caret line="54" column="53" lean-forward="false" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AdministorController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mypack/controller/AdministorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="416" column="45" lean-forward="true" selection-start-line="416" selection-start-column="45" selection-end-line="416" selection-end-column="45" />
+            <state relative-caret-position="2376">
+              <caret line="119" column="43" lean-forward="false" selection-start-line="119" selection-start-column="43" selection-end-line="119" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PublicAndStopService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mypack/service/PublicAndStopService.java">
+      <file leaf-file-name="AdministorAddService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mypack/service/AdministorAddService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            <state relative-caret-position="110">
+              <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="noticestu" pinned="false" current-in-tab="false">
-        <entry file="das://table:/a9537145/25543db2-5857-45d5-8392-884babbe82b7/education.noticestu">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="notice" pinned="false" current-in-tab="false">
-        <entry file="das://table:/a9537145/25543db2-5857-45d5-8392-884babbe82b7/education.notice">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PublicAndStopServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/PublicAndStopServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourseMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/CourseMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="90" column="56" lean-forward="false" selection-start-line="90" selection-start-column="56" selection-end-line="90" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourseInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mypack/Response/CourseInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="94" column="25" lean-forward="true" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clazz" pinned="false" current-in-tab="false">
-        <entry file="das://table:/a9537145/25543db2-5857-45d5-8392-884babbe82b7/education.clazz">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="professor" pinned="false" current-in-tab="false">
-        <entry file="das://table:/a9537145/25543db2-5857-45d5-8392-884babbe82b7/education.professor">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -405,12 +382,17 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>queryProfessor</find>
-      <find>score</find>
       <find>read</find>
       <find>/administor/studentsquery</find>
       <find>/student/myallcourses</find>
       <find>classtablequery</find>
       <find>opening</find>
+      <find>reset</find>
+      <find>score</find>
+      <find>/student/notificationQuery</find>
+      <find>/student/ReadNotification</find>
+      <find>securitystu</find>
+      <find>addstudent</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -643,14 +625,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/mypack/Response/TakesInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/AdministorAccountServiceImpl.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b1e4db03-8b11-4821-9b7f-cb39396b5284/console_1.sql" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/pojo/Selects.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/pojo/Takes.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/service/StuSelectCourseService.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/StuCourseSelectServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mypack/controller/StudentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/service/StuFileInfoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/StuFileInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/service/TeaFileInfoService.java" />
@@ -663,37 +641,41 @@
         <option value="$PROJECT_DIR$/src/main/java/mypack/pojo/Major.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/pojo/Professor.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/Response/ProfessorResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mypack/dao/ProfessorMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/pojo/Notice.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/pojo/NoticeStu.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/pojo/NoticePro.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/Response/NoticeInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mypack/service/NotificationService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mypack/dao/NoticeMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mypack/controller/ProfessorController.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/dao/MajorMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/NotificationServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/Response/SelectCourseInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/pojo/Department.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/dao/DepartmentMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/Response/ScoreInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/pojo/Course.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mypack/dao/StudentMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/dao/CourseMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/service/AdministorAddService.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/service/AdministorQueryService.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/Response/ClazzInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/dao/ClazzMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/AdministorQueryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/PublicAndStopServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/service/PublicAndStopService.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/service/AdministorDeleteService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/AdministorDeleteServiceImpl.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/25543db2-5857-45d5-8392-884babbe82b7/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/mypack/dao/TakesMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/AdministorAddServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/Response/CourseInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/mypack/controller/AdministorController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/25543db2-5857-45d5-8392-884babbe82b7/console_1.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/25543db2-5857-45d5-8392-884babbe82b7/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/mypack/dao/NoticeMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mypack/service/NotificationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/NotificationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mypack/controller/ProfessorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mypack/controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/PublicAndStopServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mypack/dao/TakesMapper.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/25543db2-5857-45d5-8392-884babbe82b7/console_2.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/AdministorDeleteServiceImpl.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/25543db2-5857-45d5-8392-884babbe82b7/console_3.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/mypack/serviceImpl/AdministorAddServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mypack/dao/StudentMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mypack/dao/ProfessorMapper.java" />
       </list>
     </option>
   </component>
@@ -753,10 +735,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -833,6 +811,15 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mypack" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="education" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Education" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mypack" type="462c0819:PsiDirectoryNode" />
               <item name="serviceImpl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -846,6 +833,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1094,7 +1085,11 @@
       <workItem from="1513868242738" duration="6000" />
       <workItem from="1514013799387" duration="29539000" />
       <workItem from="1514085694827" duration="18403000" />
-      <workItem from="1514113153867" duration="3894000" />
+      <workItem from="1514113153867" duration="11748000" />
+      <workItem from="1514184649107" duration="9524000" />
+      <workItem from="1514194623531" duration="9969000" />
+      <workItem from="1514208467433" duration="544000" />
+      <workItem from="1514254904836" duration="21000" />
     </task>
     <task id="LOCAL-00001" summary="20171201&#10;密码修改">
       <created>1512138208025</created>
@@ -1159,11 +1154,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513614093868</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="20171224&#10;管理员模块">
+      <created>1514117099327</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1514117099327</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="397110000" />
+    <option name="totallyTimeSpent" value="425022000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1190,25 +1192,25 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39805827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33764833" sideWeight="0.5198498" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41531822" sideWeight="0.5037554" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40884575" sideWeight="0.5037554" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5447681" sideWeight="0.5477997" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25160944" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2666309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15718885" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15718885" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.50912017" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33764833" sideWeight="0.5198498" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33764833" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279396" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1256,7 +1258,8 @@
     <MESSAGE value="20171212&#10;录入成绩02" />
     <MESSAGE value="20171217&#10;教师学生完成" />
     <MESSAGE value="20171218&#10;管理员档案管理" />
-    <option name="LAST_COMMIT_MESSAGE" value="20171218&#10;管理员档案管理" />
+    <MESSAGE value="20171224&#10;管理员模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="20171224&#10;管理员模块" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1273,7 +1276,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1282,152 +1285,151 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://table:/a9537145/25543db2-5857-45d5-8392-884babbe82b7/education.department">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/CourseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="90" column="56" lean-forward="false" selection-start-line="90" selection-start-column="56" selection-end-line="90" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/service/PublicAndStopService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/TimeSlotMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/25543db2-5857-45d5-8392-884babbe82b7/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/StudentQueryManagementServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="26" column="55" lean-forward="false" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mypack/service/ProScoreRecordService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="110">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/ProScoreRecordServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="84" column="37" lean-forward="false" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="316">
+          <caret line="52" column="52" lean-forward="true" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/pojo/Department.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/Response/CourseInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        <state relative-caret-position="1430">
+          <caret line="85" column="26" lean-forward="false" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/Response/ScoreInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/pojo/Notice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/controller/CourseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
+        <state relative-caret-position="-362">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/pojo/Securitypro.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/pojo/NoticeStu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/pojo/NoticePro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/25543db2-5857-45d5-8392-884babbe82b7/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/NoticeStuMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/pojo/Professor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/pojo/Securitystu.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/NoticeProMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/Response/StudentInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/service/NotificationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="176">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/Response/TakesInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/NoticeMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/controller/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="256" column="64" lean-forward="false" selection-start-line="256" selection-start-column="64" selection-end-line="256" selection-end-column="64" />
-          <folding />
+        <state relative-caret-position="164">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mypack/controller/ProfessorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5676">
-          <caret line="276" column="43" lean-forward="false" selection-start-line="276" selection-start-column="43" selection-end-line="276" selection-end-column="43" />
+        <state relative-caret-position="208">
+          <caret line="188" column="61" lean-forward="false" selection-start-line="188" selection-start-column="61" selection-end-line="188" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/NotificationServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/PublicAndStopServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="123" column="72" lean-forward="false" selection-start-line="123" selection-start-column="54" selection-end-line="123" selection-end-column="72" />
-          <folding />
+        <state relative-caret-position="140">
+          <caret line="31" column="61" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/service/AdministorAddService.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/25543db2-5857-45d5-8392-884babbe82b7/console_2.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="22">
+          <caret line="1" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/Response/ClazzInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/ClazzMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/AdministorMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="36" />
-          <folding>
-            <element signature="e#954#955#0" expanded="false" />
-            <element signature="e#1041#1042#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/pojo/Clazz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/service/AdministorQueryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/service/AdministorDeleteService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1438,159 +1440,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/25543db2-5857-45d5-8392-884babbe82b7/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/AdministorDeleteServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="72" column="42" lean-forward="false" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/DepartmentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/MajorMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/NoticeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/ProfessorMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/StudentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1340">
-          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/TakesMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="43" column="12" lean-forward="false" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/NoticeStuMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/NoticeProMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/TimeSlotMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/AdministorQueryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1892">
-          <caret line="99" column="60" lean-forward="false" selection-start-line="99" selection-start-column="51" selection-end-line="99" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/StuFileInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/a9537145/25543db2-5857-45d5-8392-884babbe82b7/education.selects">
+    <entry file="das://table:/a9537145/25543db2-5857-45d5-8392-884babbe82b7/education.major">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/AdministorAddServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="90" column="50" lean-forward="false" selection-start-line="90" selection-start-column="50" selection-end-line="90" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/AdministorMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/a9537145/25543db2-5857-45d5-8392-884babbe82b7/education.student">
+    <entry file="das://table:/a9537145/25543db2-5857-45d5-8392-884babbe82b7/education.notice">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/ClazzMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="43" />
-          <folding />
+    <entry file="das://table:/a9537145/25543db2-5857-45d5-8392-884babbe82b7/education.noticepro">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/pojo/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="163" column="27" lean-forward="false" selection-start-line="163" selection-start-column="27" selection-end-line="163" selection-end-column="27" />
-          <folding>
-            <element signature="e#3428#3429#0" expanded="true" />
-            <element signature="e#3462#3463#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/a9537145/25543db2-5857-45d5-8392-884babbe82b7/education.course">
+    <entry file="das://table:/a9537145/25543db2-5857-45d5-8392-884babbe82b7/education.department">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -1598,6 +1469,13 @@
       </provider>
     </entry>
     <entry file="das://table:/a9537145/25543db2-5857-45d5-8392-884babbe82b7/education.timeslot">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a9537145/25543db2-5857-45d5-8392-884babbe82b7/education.administor">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -1618,11 +1496,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/Response/CourseInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="94" column="25" lean-forward="true" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
-          <folding />
+    <entry file="das://table:/a9537145/25543db2-5857-45d5-8392-884babbe82b7/education.course">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1633,22 +1510,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/CourseMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/service/ChangePasswordService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="90" column="56" lean-forward="false" selection-start-line="90" selection-start-column="56" selection-end-line="90" selection-end-column="56" />
-          <folding />
+        <state relative-caret-position="66">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/a9537145/25543db2-5857-45d5-8392-884babbe82b7/education.administor">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/service/ChangeSecurityQuestionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/a9537145/25543db2-5857-45d5-8392-884babbe82b7/education.notice">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/ProChangeSecurityQuestionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/25543db2-5857-45d5-8392-884babbe82b7/console_3.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/pojo/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1892">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/NotificationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="74" column="13" lean-forward="false" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/AdministorDeleteServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="47" column="29" lean-forward="false" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/AdministorAddServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="64" column="24" lean-forward="false" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a9537145/25543db2-5857-45d5-8392-884babbe82b7/education.securitypro">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -1657,25 +1575,234 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mypack/controller/AdministorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="416" column="45" lean-forward="true" selection-start-line="416" selection-start-column="45" selection-end-line="416" selection-end-column="45" />
+        <state relative-caret-position="2376">
+          <caret line="119" column="43" lean-forward="false" selection-start-line="119" selection-start-column="43" selection-end-line="119" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/service/PublicAndStopService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/service/AdministorAddService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="110">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/serviceImpl/PublicAndStopServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/controller/StudentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+        <state relative-caret-position="2200">
+          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a9537145/25543db2-5857-45d5-8392-884babbe82b7/education.selects">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a9537145/25543db2-5857-45d5-8392-884babbe82b7/education.student">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/TakesMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/StudentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1936">
+          <caret line="97" column="47" lean-forward="false" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mypack/dao/ProfessorMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="54" column="53" lean-forward="false" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a9537145/25543db2-5857-45d5-8392-884babbe82b7/education.securitystu">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/25543db2-5857-45d5-8392-884babbe82b7.SCHEMA:education">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>25543db2-5857-45d5-8392-884babbe82b7.SCHEMA:education</OriginalElement>
+          <nodes>
+            <node x="579.8630952380952" y="242.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.professor</node>
+            <node x="1045.7301587301586" y="718.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.clazz</node>
+            <node x="0.0" y="1563.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.noticepro</node>
+            <node x="401.99999999999994" y="1563.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.selects</node>
+            <node x="594.7301587301587" y="744.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.timeslot</node>
+            <node x="1139.9801587301586" y="359.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.major</node>
+            <node x="200.99999999999994" y="1563.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.noticestu</node>
+            <node x="830.7301587301587" y="692.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.securitypro</node>
+            <node x="982.2400793650793" y="1524.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.takes</node>
+            <node x="145.74999999999994" y="757.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.administor</node>
+            <node x="1089.5" y="986.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.student</node>
+            <node x="93.25" y="1142.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.notice</node>
+            <node x="415.4781746031745" y="999.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.course</node>
+            <node x="1272.2400793650793" y="1498.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.securitystu</node>
+            <node x="591.2400793650793" y="0.0">25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.department</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.noticepro" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.notice">
+              <point x="45.25" y="-57.0" />
+              <point x="135.75" y="1478.0" />
+              <point x="144.25" y="1478.0" />
+              <point x="-51.0" y="70.0" />
+            </edge>
+            <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.clazz" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.major">
+              <point x="45.25" y="-96.0" />
+              <point x="1181.4801587301586" y="672.0" />
+              <point x="1189.2301587301586" y="672.0" />
+              <point x="-49.25" y="83.0" />
+            </edge>
+            <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.professor" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.department">
+              <point x="0.0" y="-200.0" />
+              <point x="726.8630952380952" y="217.0" />
+              <point x="725.2400793650793" y="217.0" />
+              <point x="0.0" y="96.0" />
+            </edge>
+            <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.noticepro" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.professor">
+              <point x="-45.25" y="-57.0" />
+              <point x="45.25" y="662.0" />
+              <point x="616.6130952380952" y="662.0" />
+              <point x="-110.25" y="200.0" />
+            </edge>
+            <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.notice" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.administor">
+              <point x="0.0" y="-70.0" />
+              <point x="-49.5" y="57.0" />
+            </edge>
+            <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.noticestu" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.notice">
+              <point x="-45.25" y="-57.0" />
+              <point x="51.0" y="70.0" />
+            </edge>
+            <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.securitystu" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.student">
+              <point x="0.0" y="-122.0" />
+              <point x="1369.7400793650793" y="1478.0" />
+              <point x="1292.5" y="1478.0" />
+              <point x="87.0" y="226.0" />
+            </edge>
+            <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.student" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.major">
+              <point x="58.0" y="-226.0" />
+              <point x="1263.5" y="961.0" />
+              <point x="1248.5" y="961.0" />
+              <point x="1248.5" y="672.0" />
+              <point x="1287.7301587301586" y="672.0" />
+              <point x="49.25" y="83.0" />
+            </edge>
+            <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.course" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.administor">
+              <point x="-82.5" y="-213.0" />
+              <point x="442.9781746031745" y="961.0" />
+              <point x="294.24999999999994" y="961.0" />
+              <point x="49.5" y="57.0" />
+            </edge>
+            <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.major" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.department">
+              <point x="0.0" y="-83.0" />
+              <point x="1238.4801587301586" y="217.0" />
+              <point x="814.5734126984125" y="217.0" />
+              <point x="89.33333333333326" y="96.0" />
+            </edge>
+            <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.takes" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.course">
+              <point x="-67.5" y="-96.0" />
+              <point x="1049.7400793650793" y="1458.0" />
+              <point x="580.4781746031745" y="1458.0" />
+              <point x="55.0" y="213.0" />
+            </edge>
+            <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.clazz" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.professor">
+              <point x="-45.25" y="-96.0" />
+              <point x="1090.9801587301586" y="662.0" />
+              <point x="837.1130952380952" y="662.0" />
+              <point x="110.25" y="200.0" />
+            </edge>
+            <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.takes" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.student">
+              <point x="67.5" y="-96.0" />
+              <point x="1184.7400793650793" y="1478.0" />
+              <point x="1234.5" y="1478.0" />
+              <point x="29.0" y="226.0" />
+            </edge>
+            <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.selects" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.student">
+              <point x="45.25" y="-57.0" />
+              <point x="537.75" y="1478.0" />
+              <point x="1176.5" y="1478.0" />
+              <point x="-29.0" y="226.0" />
+            </edge>
+            <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.noticestu" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.student">
+              <point x="45.25" y="-57.0" />
+              <point x="336.74999999999994" y="1468.0" />
+              <point x="1118.5" y="1468.0" />
+              <point x="-87.0" y="226.0" />
+            </edge>
+            <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.course" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.professor">
+              <point x="27.5" y="-213.0" />
+              <point x="552.9781746031745" y="961.0" />
+              <point x="584.2301587301587" y="961.0" />
+              <point x="584.2301587301587" y="672.0" />
+              <point x="690.1130952380952" y="672.0" />
+              <point x="-36.75" y="200.0" />
+            </edge>
+            <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.student" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.clazz">
+              <point x="-58.0" y="-226.0" />
+              <point x="1147.5" y="961.0" />
+              <point x="1136.2301587301586" y="961.0" />
+              <point x="0.0" y="96.0" />
+            </edge>
+            <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.course" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.timeslot">
+              <point x="82.5" y="-213.0" />
+              <point x="607.9781746031745" y="961.0" />
+              <point x="702.7301587301587" y="961.0" />
+              <point x="0.0" y="70.0" />
+            </edge>
+            <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.selects" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.course">
+              <point x="-45.25" y="-57.0" />
+              <point x="447.24999999999994" y="1458.0" />
+              <point x="470.4781746031745" y="1458.0" />
+              <point x="-55.0" y="213.0" />
+            </edge>
+            <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.course" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.department">
+              <point x="-27.5" y="-213.0" />
+              <point x="497.9781746031745" y="961.0" />
+              <point x="488.9880952380952" y="961.0" />
+              <point x="488.9880952380952" y="217.0" />
+              <point x="635.906746031746" y="217.0" />
+              <point x="-89.33333333333337" y="96.0" />
+            </edge>
+            <edge source="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.securitypro" target="25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.professor">
+              <point x="0.0" y="-122.0" />
+              <point x="928.2301587301587" y="672.0" />
+              <point x="763.6130952380952" y="672.0" />
+              <point x="36.75" y="200.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.2724177071509648" x="1529.8291666666667" y="1575.8" />
+          <SelectedNodes>
+            <node>25543db2-5857-45d5-8392-884babbe82b7.TABLE:education.professor</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
         </state>
       </provider>
     </entry>

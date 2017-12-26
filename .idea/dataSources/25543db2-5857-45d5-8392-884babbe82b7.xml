@@ -1736,7 +1736,7 @@ stuId</ColNames>
     </column>
     <column id="388" parent="242" name="grade">
       <Position>3</Position>
-      <DataType>float(3,1)|0</DataType>
+      <DataType>float(4,1)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="389" parent="242" name="ranking">
